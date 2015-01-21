@@ -1,0 +1,12 @@
+
+<IfModule mod_rewrite.c>
+
+	RewriteEngine on
+	
+	# To redirect all users to access the site WITHOUT the 'www.' prefix,
+	RewriteCond %{HTTP_HOST} ^www\.martinjoiner\.co.uk$ [NC]
+	RewriteRule ^(.*)$ http://martinjoiner.co.uk/$1 [L,R=301]
+
+</IfModule>
+
+deny from 195.43.128.194

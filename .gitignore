@@ -1,0 +1,8 @@
+
+# Ignore dev-only things
+node_modules
+
+
+# Ignore logs
+logs/*
+error_log

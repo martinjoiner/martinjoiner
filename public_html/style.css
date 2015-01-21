@@ -1,0 +1,126 @@
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background: #000000 url(images/Moire-Background.jpg) center 0 no-repeat;
+}
+
+td{
+	vertical-align: top;
+}
+
+.h1div{
+	background-image: url(images/Martin-Joiner-Creative-Services.jpg);
+	height: 64px;
+	width: 800px;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: right;
+	border-bottom: 1px solid #990099;
+}
+
+
+#header, .masterwrapper, #headerbar, .footerbar{
+	width: 450px;
+}
+
+#header{
+	margin-top: 30px;
+}
+
+#leftcol{ 
+	float: left;
+	width: 100%;
+	padding-top: 40px;
+}
+
+.twitwrap{
+	float: left;
+	width: 100%;
+	padding-top: 2em;
+}
+
+#contact{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 12px;
+	font-size: 1.4em;
+	color: #CCC;
+	padding: 1em 0;
+}
+
+.emailaddress{
+	float: right;
+}
+
+#headerlinks{
+	margin-top: 60px;
+	width: 600px;
+	height: 20px;
+	float: left;
+}
+
+.headerlink{
+	float: left;
+	margin-left: 18px;
+}
+
+.headerlink a{
+	text-decoration: none;
+	color: #666666;
+	font-size: 12px;
+}
+
+.headerlink a:hover{
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+.container{
+	text-align: center;
+	width: 100%;
+}
+
+.container div{
+	text-align: left;
+}
+
+.masterwrapper, #headerbar, .footerbar, #wrapbody{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapbody{
+	width: 450px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+img{
+	border: 0px;
+}
+
+.link{
+	width: 182px;
+	height: 64px;
+	background-image: url(images/Box.jpg);
+}
+
+.link:hover{
+	background-position: -182px;
+}
+
+a{
+	color: #aaaaaa;
+	text-decoration: none;	
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
