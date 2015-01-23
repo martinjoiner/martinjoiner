@@ -6,3 +6,11 @@ node_modules
 # Ignore logs
 logs/*
 error_log
+
+
+# Ignore crappy Wordpress Blog
+public_html/blog/*
+
+
+# Ignore CPanel files
+.ftpquota
