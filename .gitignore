@@ -5,7 +5,6 @@ node_modules
 
 # Ignore logs
 logs/*
-error_log
 
 
 # Ignore crappy Wordpress Blog
