@@ -37,7 +37,7 @@ $arrSlies[6]['url'] = 'bristolopen.info';
 
 $arrSlies[7]['header'] = 'Wild West Fitness';
 $arrSlies[7]['blurb'] = 'Responsive information and tournament entry system website for annual fitness challenge. ';
-$arrSlies[7]['url'] = 'wildwestfitness.co.uk';
+$arrSlies[7]['url'] = 'wildwestfitness.martinjoiner.co.uk';
 
 ?>
 
