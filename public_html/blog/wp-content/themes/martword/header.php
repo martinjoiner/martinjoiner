@@ -5,6 +5,7 @@
 
 	<title><?php wp_title('&laquo;', true, 'right'); ?><?php bloginfo('name'); ?></title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 
