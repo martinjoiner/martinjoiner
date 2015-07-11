@@ -48,7 +48,7 @@
 					echo '<span class="tags">';
 					_e('Tagged as:','lightword'); 
 					echo " "; 
-					the_tags('',' ',''); 
+					the_tags('','',''); 
 					echo '</span>';
 				} 
 				?>

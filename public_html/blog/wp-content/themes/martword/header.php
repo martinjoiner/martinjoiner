@@ -35,8 +35,8 @@
 			$strContent = get_the_excerpt();
 		} else {
 			// No excerpt so use the first paragraph
-			the_post();
-			$strContent = wp_strip_all_tags( get_the_content() );
+			$objPost = get_post( get_the_ID() );
+			$strContent = wp_strip_all_tags( $objPost->post_content );
 			$strContent = preg_replace( '/\n.*/', '', $strContent );
 		}
 		?><meta property="og:description" content="<?=$strContent?>"/>
