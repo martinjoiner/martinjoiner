@@ -92,14 +92,14 @@ pre{width:100%; white-space:pre-wrap;}
 
 #topBox{
 	padding: 2em 0;
-	color: #D2E6F2;
+	color: #CAD5DB;
 }
 
 #topBox h1{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 4em;
+	font-size: 2.5em;
 	text-transform: uppercase;
-	letter-spacing: -3px;
+	letter-spacing: -1px;
 }
 
 #topBox h1 a{
@@ -131,12 +131,21 @@ pre{width:100%; white-space:pre-wrap;}
 	padding: 0.6em 1em;
 	background-color: #002F4C;
 	text-decoration: none;
-	transition: background-color .2s;
+	-webkit-transition: background-color .2s;
+	   -moz-transition: background-color .2s;
+			transition: background-color .2s;
 
 }
 
+.lstNav li a.s,
+.lstNav li.current-cat a,
 .lstNav li a:hover{
 	background-color: #064064;
+}
+
+.lstNav li a.s,
+.lstNav li.current-cat a{
+	cursor: default;
 }
 
 #top{z-index:-1;cursor:pointer;display:block;margin-left:5px;position:relative;bottom:-55px;margin-top:-55px;min-height:56px;}
@@ -151,7 +160,7 @@ pre{width:100%; white-space:pre-wrap;}
 }
 
 #searchform{
-	margin: 0 auto;
+	float: left;
 	width: 232px;
 	position: relative;
 	border: 1px solid #888;
@@ -313,7 +322,10 @@ img.wp-smiley{border:0px;vertical-align:middle;}
 
 .cat_tags .continue{float:right;padding-right:10px;width:100px;text-align:center;}
 
-.cat_tags .category{float:left;}
+.cat_tags .category{
+	float: left;
+	margin-right: 0.5em;
+}
 
 .cat_tags a,
 .cat_tags .continue a{
@@ -322,10 +334,25 @@ img.wp-smiley{border:0px;vertical-align:middle;}
 	background-color: #99A;
 	color: white;
 	text-decoration: none;
+	-webkit-transition: background-color .2s;
+	   -moz-transition: background-color .2s;
+			transition: background-color .2s;
 }
 
-.cat_tags a:hover{color:#ACACAB;}
+.cat_tags .category a{
+	background-color: #833656;
+}
+.cat_tags .category a:hover{
+	background-color: #963E63;
+}
 
+.cat_tags .tags a{
+	background-color: #247453
+}
+
+.cat_tags .tags a:hover{
+	background-color: #229364;
+}
 
 
 

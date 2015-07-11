@@ -23,11 +23,7 @@
 		</div>
 		<?php endif; ?>
 
-		<?php 
-		if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) { 
-			the_post_thumbnail(array( 200,200 ), array( 'class' => 'featuredImage' )); 
-		} 
-		?>
+
 		<div class="postContent">
 
 			<?php lw_simple_date(); ?>
@@ -40,8 +36,44 @@
 			<?php wp_link_pages('before=<div class="nav_link">'.__('PAGES','lightword').': &after=</div>&next_or_number=number&pagelink=<span class="page_number">%</span>'); ?>
 
 			<div class="cat_tags clear">
-				<span class="category"><?php if($lw_disable_tags == "true" || !get_the_tags()) { _e('Filed under:','lightword'); echo " "; the_category(', ');} else if (get_the_tags() && $lw_disable_tags == "false") { _e('Tagged as:','lightword'); echo " "; the_tags(''); } ?></span>
-				<span class="continue"><?php $pos = strpos($post->post_content, '<!--more-->'); if($pos==''){ ?><a class="nr_comm_spot" href="<?php the_permalink(); ?>#comments"><?php if(fb_get_comment_type_count('comment')==1) _e('1 Comment','lightword'); elseif('open' != $post->comment_status) _e('Comments Off','lightword'); elseif(fb_get_comment_type_count('comment') == 0) _e('No Comments','lightword'); else echo fb_get_comment_type_count('comment')." ".__('Comments','lightword'); ?></a><?php }else{ ?><a title="<?php _e('Read more about','lightword'); ?> <?php the_title(); ?>" href="<?php the_permalink() ?>#more-<?php echo $id; ?>"><?php _e('Continue reading','lightword'); ?></a><?php } ?></span><div class="clear"></div>
+				<span class="category">
+					<?php _e('Filed under:','lightword'); 
+					echo " ";
+					the_category(', ');
+					?>
+				</span>
+				
+				<?php
+				if( get_the_tags() ){ 
+					echo '<span class="tags">';
+					_e('Tagged as:','lightword'); 
+					echo " "; 
+					the_tags('',' ',''); 
+					echo '</span>';
+				} 
+				?>
+				
+				<span class="continue">
+					<?php 
+					$pos = strpos($post->post_content, '<!--more-->'); 
+					if($pos==''){ 
+						?><a class="nr_comm_spot" href="<?php the_permalink(); ?>#comments">
+							<?php 
+							if(fb_get_comment_type_count('comment')==1) 
+								_e('1 Comment','lightword'); 
+							elseif('open' != $post->comment_status) 
+								_e('Comments Off','lightword'); 
+							elseif(fb_get_comment_type_count('comment') == 0) 
+								_e('No Comments','lightword'); 
+							else 
+								echo fb_get_comment_type_count('comment')." ".__('Comments','lightword'); 
+						?></a>
+						<?php 
+					}else{ 
+						?><a title="<?php _e('Read more about','lightword'); ?> <?php the_title(); ?>" href="<?php the_permalink() ?>#more-<?php echo $id; ?>"><?php _e('Continue reading','lightword'); ?></a><?php 
+					} ?>
+				</span>
+				<div class="clear"></div>
 			</div>
 				<div class="cat_tags_close"></div>
 			</div>

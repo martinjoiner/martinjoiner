@@ -437,7 +437,7 @@ return $top_list;
 function lw_header_image(){
     ?>
     <div id="topBox">
-        <h1><a name="top" title="<?php bloginfo('name'); ?>" href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <h1><a title="<?php bloginfo('name'); ?>" href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
         <small class="strapLine"><?php bloginfo('description'); ?></small>
         
     </div>
@@ -476,14 +476,19 @@ if($cufon_enabled == 1) echo $cufon_footer_script;
 // HOME BUTTON
 
 function lw_homebtn($homebtn_value){
-    global $lw_remove_homebtn; if($lw_remove_homebtn == "false") { 
-        if(is_front_page()) $selected="s"; ?>
-            <li>
-                <a class="<?php echo $selected; ?>" title="<?php echo $homebtn_value; ?>" href="<?php echo get_option('home'); ?>">
-                    <span><?php echo $homebtn_value ?></span>
-                </a>
-            </li>
+    global $lw_remove_homebtn; 
+    if($lw_remove_homebtn == "false") { 
+        if( is_front_page() ){
+            $selected="s"; 
+        }
+        ?>
+        <li>
+            <a class="<?php echo $selected; ?>" title="<?php echo $homebtn_value; ?>" href="<?php echo get_option('home'); ?>">
+                <?php echo $homebtn_value ?>
+            </a>
+        </li>
         <?php
+        
     }
 }
 
@@ -516,18 +521,13 @@ function lw_searchbox(){
         <?php 
     } else { ?>
         <form method="get" id="searchform" action="<?php bloginfo('url'); ?>">
-            <input type="text" value="" name="s" id="s" placeholder="Search..." required> 
-            <input type="submit" id="go" value="" alt="<?php _e('Search'); ?>" title="<?php _e('Search'); ?>" />
+            <input type="text" value="" name="s" id="s" placeholder="<?php _e('Search'); ?>..." required> 
+            <input type="submit" id="go" value="" title="<?php _e('Search'); ?>" />
         </form>
     <?php
     }
 }
 
-// REMOVE SEARCHBOX
-function lw_expmenu(){
-global $lw_remove_searchbox;
-if($lw_remove_searchbox=="true") echo " class=\"expand\"";
-}
 
 // SIDEBOX
 

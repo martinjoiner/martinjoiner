@@ -7,8 +7,6 @@
 
 		<div <?php if (function_exists("post_class")) post_class(); else print 'class="post"'; ?> id="post-<?php the_ID(); ?>">
 
-			<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) { the_post_thumbnail(array( 200,200 ), array( 'class' => 'featuredImage' )); } ?>
-
 			<div class="postContent">
 				<?php lw_simple_date(); ?>
 
@@ -38,18 +36,21 @@
 
 				<div class="cat_tags clear">
 					<span class="category">
-						<?php 
-						if($lw_disable_tags == "true" || !get_the_tags()) { 
-							_e('Filed under:','lightword'); 
-							echo " "; 
-							the_category(', ');
-						} else if (get_the_tags() && $lw_disable_tags == "false") { 
-							_e('Tagged as:','lightword'); 
-							echo " "; 
-							the_tags(''); 
-						} 
+						<?php _e('Filed under:','lightword'); 
+						echo " ";
+						the_category(', ');
 						?>
 					</span>
+					
+					<?php
+					if( get_the_tags() ){ 
+						echo '<span class="tags">';
+						_e('Tagged as:','lightword'); 
+						echo " "; 
+						the_tags('',' ',''); 
+						echo '</span>';
+					} 
+					?>
 					<div class="clear"></div>
 				</div>
 
