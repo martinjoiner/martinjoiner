@@ -575,24 +575,6 @@ break;
 } // end switch
 } // end function
 
-function lw_sidebar(){
-global $lw_sidebar_settings, $lw_layout_settings;
-if($lw_layout_settings=="Wider"){
-switch ($lw_sidebar_settings)
-{
-case "One sidebar":
-default:
-break;
-
-case "Two sidebars":
-include (TEMPLATEPATH . '/sidebar-child.php');
-break;
-
-
-
-} // end switch
-}// end if
-} // end function
 
 
 function lw_simple_date(){
@@ -621,30 +603,11 @@ edit_comment_link(__('edit','lightword'),'&nbsp;','');
 // SPAM PROTECT
 
 function check_referrer() {
-if (!isset($_SERVER['HTTP_REFERER']) || $_SERVER['HTTP_REFERER'] == “”) {
-wp_die( __('Please enable referrers in your browser, or, if you\'re a spammer, bugger off!','lightword') );
-}
-}
-
-// RSS FEED BADGE OPTIONS
-
-function rss_feed_css_false(){
-echo "<style type=\"text/css\">/*<![CDATA[*/* html #searchform{margin-top:-13px;}*+ html #searchform{margin-top:-13px;}  #content-body,x:-moz-any-link{float:left;margin-right:28px;}#content-body, x:-moz-any-link, x:default{float:none;margin-right:25px;} /*]]>*/</style>";
-}
-function rss_feed_css_true(){
-global $lw_layout_settings;
-if($lw_layout_settings == "Wider"){
-echo "<style type=\"text/css\">/*<![CDATA[*/ #header{background:transparent url(".get_bloginfo('template_directory')."/images/wider/content_top_no_rss.png) no-repeat; } #content-body,x:-moz-any-link{float:left;margin-right:28px;}#content-body, x:-moz-any-link, x:default{float:none;margin-right:25px;}/*]]>*/</style>";
-}else{
-echo "<style type=\"text/css\">/*<![CDATA[*/ #header{background:transparent url(".get_bloginfo('template_directory')."/images/content_top_no_rss.png) no-repeat; } #content-body,x:-moz-any-link{float:left;margin-right:28px;}#content-body, x:-moz-any-link, x:default{float:none;margin-right:25px;}/*]]>*/</style>";
-}
+    if (!isset($_SERVER['HTTP_REFERER']) || $_SERVER['HTTP_REFERER'] == “”) {
+        wp_die( __('Please enable referrers in your browser, or, if you\'re a spammer, bugger off!','lightword') );
+    }
 }
 
-function lw_rss_feed(){
-global $lw_remove_rss;
-if($lw_remove_rss == "false"){ ?>
-<a id="rss-feed" title="<?php _e('Syndicate this site using RSS','lightword'); ?>" href="<?php bloginfo('rss2_url'); ?>"><?php _e('Subscribe via RSS','lightword'); ?></a>
-<?php } } if($lw_remove_rss == "false") add_action('wp_head','rss_feed_css_false'); else add_action('wp_head','rss_feed_css_true');
 
 // IE6 PNG CSS FIX
 
