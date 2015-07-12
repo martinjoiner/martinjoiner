@@ -161,7 +161,7 @@ pre{width:100%; white-space:pre-wrap;}
 
 #searchform{
 	float: left;
-	width: 232px;
+	width: 234px;
 	position: relative;
 	border: 1px solid #888;
 }
@@ -171,7 +171,7 @@ pre{width:100%; white-space:pre-wrap;}
 	float: left;
 	border: none;
 	width: 200px;
-	height: 32px;
+	height: 34px;
 	padding: 0 10px;
 	margin: 0;
 	box-sizing: border-box;
@@ -180,14 +180,14 @@ pre{width:100%; white-space:pre-wrap;}
 #header #go{
 	display: block;
 	float: right;
-	width: 32px;
-	height: 32px;
+	width: 34px;
+	height: 34px;
 	padding: 0;
 	margin: 0;
 	background-color: #FFF;
 	background-image: url(images/searchbox.png);
 	background-repeat: no-repeat;
-	background-position: -162px 3px;
+	background-position: -161px 4px;
 	border: 0;
 	cursor:pointer;
 }
