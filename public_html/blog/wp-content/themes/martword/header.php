@@ -49,15 +49,21 @@
 			$thumbTag = preg_replace( '/ alt="[^"]*"/', '', $thumbTag ); 
 			$thumbTag = preg_replace( '/ width="[^"]*"/', '', $thumbTag ); 
 			$thumbTag = preg_replace( '/ height="[^"]*"/', '', $thumbTag ); 
-			echo $thumbTag;
+			print $thumbTag . "\n";
+
+			$twitterImgTag = preg_replace( '/property="og:image"/', 'name="twitter:image:src"', $thumbTag ); 
+			print $twitterImgTag . "\n";
 		} 
 		?>
-
 		<meta property="fb:admins" content="511938722" />
 
 		<?php
 	} 
 	?>
+
+	<meta name="twitter:site" content="@martinjoiner">
+ 	<meta name="twitter:creator" content="@martinjoiner">
+
 	<?php wp_head(); ?>
 
 </head>
