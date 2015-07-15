@@ -42,8 +42,9 @@
 
 	<nav id="header">
 		<a href="/">Home</a>
-		<a href="/cv">CV</a>
-		<a href="/portfolio">Portfolio</a>
+		<a href="/cv/">CV</a>
+		<a href="/portfolio/">Portfolio</a>
+		<a href="/blog/" target="_blank" title="Open blog in a new window">Blog</a>
 	</nav><!-- Close <div id="header"> -->
 
 	<div class="headerSpace"></div>
