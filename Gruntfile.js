@@ -15,6 +15,9 @@ module.exports = function(grunt) {
       },
       concatjs: {
         src: ['public_html/js/concatinated.js']
+      },
+      wpmincss: {
+        src: ['public_html/blog/wp-content/themes/martword/*style.min.css']
       }
     },
     jshint: {
@@ -47,10 +50,16 @@ module.exports = function(grunt) {
       }
     },
     cssmin: {
-      css: {
+      mj: {
         files: {
           'public_html/css/style.min.css' : 
           [ 'public_html/css/style.css' ]
+        }
+      },
+      wp: {
+        files: {
+          'public_html/blog/wp-content/themes/martword/style.min.css' : 
+          [ 'public_html/blog/wp-content/themes/martword/style.css' ]
         }
       }
     },
@@ -63,6 +72,11 @@ module.exports = function(grunt) {
       js: {
         files: {
           src: ['public_html/js/martinjoiner.min.js']
+        }
+      },
+      wpcss: {
+        files: {
+          src: ['public_html/blog/wp-content/themes/martword/style.min.css']
         }
       }
     },
@@ -77,6 +91,11 @@ module.exports = function(grunt) {
         files: {
           'public_html/template/main.inc.php': ['public_html/js/*martinjoiner.min.js'],
         }
+      },
+      wpcss: {
+        files: {
+          'public_html/blog/wp-content/themes/martword/header.php': ['public_html/blog/wp-content/themes/martword/*style.min.css'],
+        }
       }
     },
     watch: {
@@ -88,6 +107,10 @@ module.exports = function(grunt) {
       css: {
         files: ['public_html/css/style.css'],
         tasks: ['css']
+      },
+      wpcss: {
+        files: ['public_html/blog/wp-content/themes/martword/style.css'],
+        tasks: ['wpcss']
       }
     }
   });
@@ -104,7 +127,10 @@ module.exports = function(grunt) {
   // Default task(s).
   grunt.registerTask('default', ['watch']);
   grunt.registerTask('js', ['clean:revjs','jshint','concat','uglify','rev:js','injector:js','clean:concatjs']);
-  grunt.registerTask('css', ['clean:mincss','clean:revcss','cssmin','rev:css','injector:css']);
+  grunt.registerTask('css', ['clean:mincss','clean:revcss','cssmin:mj','rev:css','injector:css']);
+
+  // Minify CSS WordPress Theme
+  grunt.registerTask('wpcss', ['clean:wpmincss','cssmin:wp','rev:wpcss','injector:wpcss']);
 
 };
 

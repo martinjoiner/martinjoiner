@@ -9,4 +9,13 @@
 
 </IfModule>
 
+<ifModule mod_expires.c>
+
+   <filesMatch "style\.min\.css$">
+      ExpiresActive On
+      ExpiresDefault "access plus 30 days"
+  </filesMatch>
+
+</ifModule>
+
 deny from 195.43.128.194

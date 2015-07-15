@@ -10,8 +10,10 @@
 
 	<meta name="msapplication-TitleColor" content="#002F4C">
 	<meta name="theme-color" content="#002F4C">
-
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+	
+	<!-- injector:css -->
+	<link rel="stylesheet" href="/blog/wp-content/themes/martword/f9628a72.style.min.css">
+	<!-- endinjector -->
 
 	<link rel="shortcut icon" href="<?php bloginfo('url'); ?>/favicon.ico" />
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
