@@ -609,33 +609,6 @@ function check_referrer() {
 }
 
 
-// IE6 PNG CSS FIX
-
-function ie_png_transparency(){
-    global $lw_remove_rss, $lw_layout_settings, $lw_sidebox_settings, $lw_sidebar_settings;
-
-    $lw_layout_wider = "";
-
-    if($lw_layout_settings == "Wider") $lw_layout_wider = "wider/";
-
-    if($lw_layout_settings == "Wider" && $lw_sidebar_settings == "Two sidebars") $lw_layout_wider = "wider/two-sidebars/";
-
-    echo "\n<!--[if IE 6]><style type=\"text/css\">/*<![CDATA[*/";
-    if($lw_remove_rss == "false"){
-        echo "#header{background-image: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='".get_bloginfo('template_directory')."/images/".$lw_layout_wider."content_top.png',sizingMethod='scale'); }";
-    }else{
-        echo "#header{background-image: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='".get_bloginfo('template_directory')."/images/".$lw_layout_wider."content_top_no_rss.png',sizingMethod='scale'); }";
-    }
-    echo "#footer{background:transparent url(".get_bloginfo('template_directory')."/images/".$lw_layout_wider."content_bottom.gif) no-repeat;height:8px;}";
-
-    if($lw_sidebox_settings == "Show only date" || $lw_sidebox_settings == "Last two options together"){
-    echo ".only_date{background-image: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='".get_bloginfo('template_directory')."/images/data_box.png',sizingMethod='scale'); }";
-    } else {
-        echo ".comm_date{background-image: none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='".get_bloginfo('template_directory')."/images/date_comm_box.png',sizingMethod='scale'); }";
-    }
-
-    echo "/*]]>*/</style><![endif]-->";
-}
 
 // THREADED COMMENTS
 
@@ -649,14 +622,6 @@ function nested_comments($comment, $args, $depth) { $GLOBALS['comment'] = $comme
 <?php
 }
 
-// CUSTOM CSS
-
-function lw_custom_css(){
-global $lw_custom_css;
-if($lw_custom_css){
-echo "\n<style type=\"text/css\">\n/*<![CDATA[*/\n".$lw_custom_css."\n /*]]>*/\n</style>\n";
-}
-}
 
 // ADSENSE
 
@@ -700,10 +665,6 @@ if ( function_exists( 'add_theme_support' ) ) add_theme_support( 'post-thumbnail
 // ENABLE FUNCTIONS
 
 add_action('admin_menu', 'lightword_admin');
-
-add_action('wp_head',    'lw_custom_css');
-add_action('wp_head',    'ie_png_transparency');
-
 
 add_action('wp_footer',  'comment_tabs');
 add_action( 'wp_head', 'canonical_for_comments' );

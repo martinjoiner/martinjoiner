@@ -23,7 +23,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	<?php wp_enqueue_script('jquery'); ?>
+
 	<?php 
 	if ( is_singular() ){
 		wp_enqueue_script( 'comment-reply' );
