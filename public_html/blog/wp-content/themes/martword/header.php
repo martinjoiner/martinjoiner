@@ -12,7 +12,7 @@
 	<meta name="theme-color" content="#002F4C">
 	
 	<!-- injector:css -->
-	<link rel="stylesheet" href="/blog/wp-content/themes/martword/f9628a72.style.min.css">
+	<link rel="stylesheet" href="/blog/wp-content/themes/martword/d0b37cd1.style.min.css">
 	<!-- endinjector -->
 
 	<link rel="shortcut icon" href="<?php bloginfo('url'); ?>/favicon.ico" />
