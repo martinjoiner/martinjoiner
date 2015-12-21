@@ -8,17 +8,25 @@
 	<h3>Familiar Technologies</h3>
 
 	<p>
-		HTML, CSS, PHP, ColdFusion, Javascript, JQuery, NodeJS, Grunt, GIT, MySQL, WordPress, 
-		APIs (Google Maps, Twitter, MailChimp), Arduino, PhoneGap, Apache, LESS, SASS, Open Graph
+		<strong>Markups:</strong> HTML, SVG, XML.
+		<strong>Languages:</strong> PHP, Javascript, CSS, MySQL, ColdFusion.
+		<strong>Libraries/Frameworks:</strong> JQuery, AngularJS, NodeJS, WordPress, Symfony2.
+		<strong>Pre-processors:</strong> Grunt, LESS, SASS. 
+		<strong>Version control:</strong> GIT, SVN. 
+		<strong>APIs:</strong> Google Maps, MapBox, HighCharts, Twitter, MailChimp.
+		<strong>Protocols:</strong> Open Graph, Rich snippets. 
+		<strong>Naming conventions:</strong> Hungarian notation, BEM, <em>team custom</em>.
+		<strong>Server Admin:</strong> Apache, Linus, CentOS, Unix (OsX)
+		<strong>Other fun stuff:</strong> Arduino, PhoneGap.  
 	</p>
 
 	<h3>Visual</h3>
 
-	<p>Adobe CC (Photoshop + Illustrator), branding + logo design, 3D modelling, digital photography + retouching, video production, illustration</p>
+	<p>Photoshop, Illustrator, branding + logo design, 2D and 3D animation, 3D modelling, digital photography + retouching, video production, sketching + drawing.</p>
 
 	<h3>Interactive</h3>
 
-	<p>Responsive design, interactions design, 2D and 3D animation, design for accessibility</p>
+	<p>Responsive web design, accessibility, UX.</p>
 
 	<h3>Communication</h3>
 
@@ -30,7 +38,7 @@
 	<h3>Other interests</h3>
 
 	<p>I perform improvisation comedy theatre. I paint and build with reclaimed wood. I love to craft with electronics, wood, paint, casting and print. 
-	I run the Bristol half marathon each year. Wild swim in summer. Cycle all year round. Juggling.</p>
+	I run the Bristol half marathon each year. Wild swim in summer. SCUBA diving. Cycle all year round. Juggling.</p>
 	
 	<h3>Other jobs</h3>
 	
@@ -45,7 +53,7 @@
 	<h2>About</h2>
 
 	<p>
-		Creative thinking full-stack web developer with a specialism in front-end. 
+		Creative thinking full-stack web developer with a passion for UX and a specialism in front-end. 
 		Works at ground-level to inspire the team to implement fresh practical solutions. 
 		Thrives in a culture of innovation and high standards. 
 	</p>
@@ -54,17 +62,25 @@
 
 	<h2>Projects</h2>
 
-	<h3>Storywalks <span class="dRange">2012 &ndash; Present</span></h3>
 
-	<p>Lead developer of award-winning literacy app for KS2+3 in schools. GPS triggered interactive story. Written mainly in Javascript with PHP and MySQL back-end.</p>
+
+	<h3>Somo Global <span class="dRange">2015 Q4</span></h3>
+
+	<p>Senior front-end developer</p>
+
+	<p>I worked as part of a large multi-discipline custom development team to deliver a major website project for a big consumer brand client. 
+	My role included writing the key Javascript for the data visualisation and geographical mapping sections of the site.  </p>
 
 	<ul class="outLink">
-		<li>&ndash; <a href="http://storywalks.info">storywalks.info</a></li>
+		<li>&ndash; <a href="http://www.somoglobal.com/">www.somoglobal.com</a></li>
+		<li>&ndash; <a href="https://www.horizondata.net/">www.horizondata.net</a></li>
 	</ul>
 
 
 
-	<h3>Carmen Data Ltd <span class="dRange">2012 &ndash; Present</span></h3>
+	<h3>Carmen Data Ltd <span class="dRange">2012 &ndash; 2015</span></h3>
+
+	<p>Senior web developer</p>
 
 	<p>Front-end developer in automotive web. Retrained in ColdFusion for the role. Building sites for Mercedes-Benz, VW Group, Ford and others. 
 	Backwards compatibility for executives still on IE7. Continual improvement of products and taxation decision tools. Interaction and <abbr title="User Experience">UX</abbr> design. 
@@ -73,6 +89,18 @@
 	<ul class="outLink">
 		<li>&ndash; <a href="http://www.comparecontracthire.com/">www.comparecontracthire.com</a></li>
 		<li>&ndash; <a href="http://carmendata.co.uk/">carmendata.co.uk</a></li>
+	</ul>
+
+
+
+	<h3>Storywalks <span class="dRange">2012 &ndash; Present</span></h3>
+
+	<p>Lead developer</p>
+
+	<p>Creator of an award-winning literacy app for KS2+3 in schools. GPS triggered interactive story. Written mainly in Javascript with PHP and MySQL back-end.</p>
+
+	<ul class="outLink">
+		<li>&ndash; <a href="http://storywalks.info">storywalks.info</a></li>
 	</ul>
 
 
