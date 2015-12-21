@@ -16,7 +16,7 @@
 		<strong>APIs:</strong> Google Maps, MapBox, HighCharts, Twitter, MailChimp.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
 		<strong>Naming conventions:</strong> Hungarian notation, BEM, <em>team custom</em>.
-		<strong>Server Admin:</strong> Apache, Linus, CentOS, Unix (OsX)
+		<strong>Server Admin:</strong> Apache, Linus, CentOS, Unix (Apple OS X)
 		<strong>Other fun stuff:</strong> Arduino, PhoneGap.  
 	</p>
 
