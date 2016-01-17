@@ -9,14 +9,14 @@
 
 	<p>
 		<strong>Markups:</strong> HTML, SVG, XML.
-		<strong>Languages:</strong> PHP, Javascript, CSS, MySQL, ColdFusion.
-		<strong>Libraries/Frameworks:</strong> JQuery, AngularJS, NodeJS, WordPress, Symfony2.
-		<strong>Pre-processors:</strong> Grunt, LESS, SASS. 
+		<strong>Languages:</strong> PHP, Javascript, CSS, MySQL, ColdFusion, Blade, Twig.
+		<strong>Libraries/Frameworks:</strong> JQuery, AngularJS, NodeJS, Drupal, Symfony, Laravel (MVC), WordPress.
+		<strong>Build tools:</strong> Grunt, Gulp, LESS, SASS, Elixir. 
 		<strong>Version control:</strong> GIT, SVN. 
 		<strong>APIs:</strong> Google Maps, MapBox, HighCharts, Twitter, MailChimp.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
 		<strong>Naming conventions:</strong> Hungarian notation, BEM, <em>team custom</em>.
-		<strong>Server Admin:</strong> Apache, Linus, CentOS, Unix (Apple OS X)
+		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X)
 		<strong>Other fun stuff:</strong> Arduino, PhoneGap.  
 	</p>
 
