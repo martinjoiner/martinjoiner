@@ -169,46 +169,51 @@ img.homeBlink{
 }
 
 .socWrap{
-	width: 150px;
+	width: 270px; /* ( 4 x 60px ) + ( 3 x 10px padding ) */
 	margin: 0 auto;
 }
 
-.twitLink,
-.gitLink,
-.soLink{
+.socialLink{
+	background-image: url(/images/Social-Spritesheet.svg);
+	background-size: 120px 120px;
 	display: block;
 	float: left;
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 	text-indent: -99999px;
 	background-repeat: no-repeat;
 	margin-top: 3px;
+	margin-right: 10px;
 	-webkit-transition: margin .2s;
 	   -moz-transition: margin .2s;
 			transition: margin .2s;
 }
 
+.socialLink:last-child{
+	margin-right: 0;
+}
+
 .twitLink:hover,
 .gitLink:hover,
-.soLink:hover{
+.soLink:hover,
+.liLink:hover{
 	margin-top: 0px;
 }
 
-.soLink{
-	background-image: url(/images/so-icon.png);
-	background-size: 50px 50px;
+.twitLink{
+	background-position: -2px -2px;
 }
 
 .gitLink{
-	background-image: url(/images/GitHub-Mask-120px-plus.png);
-	background-size: 35px 35px;
-	background-position: 7px 7px;
+	background-position: -61px -61px;
 }
 
-.twitLink{
-	background-image: url(/images/Twitter_logo_blue.png);
-	background-size: 40px 40px;
-	background-position: 5px 5px;
+.soLink{
+	background-position: 0 -60px;
+}
+
+.liLink{
+	background-position: -60px 0;
 }
 
 

@@ -9,11 +9,13 @@
 
     <div class="socWrap">
 
-        <a class="twitLink" target="_blank" href="https://twitter.com/MartinJoiner" title="Martin Joiner on Twitter">Twitter</a>
+        <a class="socialLink twitLink" target="_blank" href="https://twitter.com/MartinJoiner" title="Martin Joiner on Twitter">Twitter</a>
 
-        <a class="gitLink" target="_blank" href="https://github.com/martinjoiner" title="Martin Joiner on Github">GitHub</a>
+        <a class="socialLink gitLink" target="_blank" href="https://github.com/martinjoiner" title="Martin Joiner on Github">GitHub</a>
 
-        <a class="soLink" target="_blank" href="http://stackoverflow.com/users/2054138/martin-joiner" title="Martin Joiner on Stack Overflow">Stack Overflow</a>
+        <a class="socialLink soLink" target="_blank" href="http://stackoverflow.com/users/2054138/martin-joiner" title="Martin Joiner on Stack Overflow">Stack Overflow</a>
+
+        <a class="socialLink liLink" target="_blank" href="https://uk.linkedin.com/in/martinjoiner" title="Martin Joiner on LinkedIn">LinkedIn</a>
 
     </div>
 
