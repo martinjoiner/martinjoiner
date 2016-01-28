@@ -22,7 +22,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- injector:css -->
-	<link rel="stylesheet" href="/css/8e41d77c.style.min.css">
+	<link rel="stylesheet" href="/css/6f2fae4a.style.min.css">
 	<!-- endinjector -->
 
 	<?php
