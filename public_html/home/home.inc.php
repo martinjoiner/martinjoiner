@@ -1,63 +1,20 @@
 
-<div class="flashWrap">
-    <script language="javascript">AC_FL_RunContent = 0;</script>
-    <script src="AC_RunActiveContent.js" language="javascript"></script>
+<div class="homeWrap">
 
-    <script language="javascript">
-        if (AC_FL_RunContent == 0) {
-            alert("This page requires AC_RunActiveContent.js.");
-        } else {
-            AC_FL_RunContent(
-                'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-                'width', '450',
-                'height', '253',
-                'src', 'Blink',
-                'quality', 'high',
-                'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-                'align', 'middle',
-                'play', 'true',
-                'loop', 'true',
-                'scale', 'showall',
-                'wmode', 'window',
-                'devicefont', 'false',
-                'id', 'Blink',
-                'bgcolor', '#FFFFFF',
-                'name', 'Blink',
-                'menu', 'true',
-                'allowFullScreen', 'false',
-                'allowScriptAccess','sameDomain',
-                'movie', 'Blink',
-                'salign', ''
-                ); //end AC code
-        }
-    </script>
-    <noscript>
-        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="450" height="253" id="Blink" align="middle">
-        <param name="allowScriptAccess" value="sameDomain" />
-        <param name="allowFullScreen" value="false" />
-        <param name="movie" value="Blink.swf" />
-        <param name="quality" value="high" />
-        <param name="bgcolor" value="#FFFFFF" />
-        <embed src="Blink.swf" quality="high" bgcolor="#FFFFFF" width="450" height="253" name="Blink" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-        </object>
-    </noscript>
-</div>
+    <img class="homeBlink" src="/images/blink4portfolio.gif">
 
-<div id="contact">
+    <p>Martin Joiner: <strong>Full-full-stack developer</strong> <em>(the extra &quot;full&quot; is for UX)</em>. Based in Bristol, UK. </p> 
 
-    <p>Martin Joiner is a highly creative full-stack web developer with a specialism in front-end. Based in Bristol, UK. </p> 
+    <p id="emailPlaceholder"></p>
 
-    <p>Email <span class="emailPlaceholder"></span></p>
+    <div class="socWrap">
+
+        <a class="twitLink" target="_blank" href="https://twitter.com/MartinJoiner" title="Martin Joiner on Twitter">Twitter</a>
+
+        <a class="gitLink" target="_blank" href="https://github.com/martinjoiner" title="Martin Joiner on Github">GitHub</a>
+
+        <a class="soLink" target="_blank" href="http://stackoverflow.com/users/2054138/martin-joiner" title="Martin Joiner on Stack Overflow">Stack Overflow</a>
+
+    </div>
 
 </div>
-
-<div class="socWrap">
-
-    <a class="twitLink" target="_blank" href="https://twitter.com/MartinJoiner">Twitter</a>
-
-    <a class="gitLink" target="_blank" href="https://github.com/martinjoiner">GitHub</a>
-
-    <a class="soLink" target="_blank" href="http://stackoverflow.com/users/2054138/martin-joiner">Stack Overflow</a>
-
-</div>
-

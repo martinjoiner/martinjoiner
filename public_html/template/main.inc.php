@@ -22,7 +22,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- injector:css -->
-	<link rel="stylesheet" href="/css/aa17ff68.style.min.css">
+	<link rel="stylesheet" href="/css/71128751.style.min.css">
 	<!-- endinjector -->
 
 	<?php
@@ -42,7 +42,7 @@
 
 	<nav id="header">
 		<a href="/">Home</a>
-		<a href="/cv/">CV</a>
+		<a href="/cv/" title="Martin Joiners CV">CV</a>
 		<a href="/portfolio/">Portfolio</a>
 		<a href="/blog/" target="_blank" title="Open blog in a new window">Blog</a>
 	</nav><!-- Close <div id="header"> -->
@@ -66,7 +66,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
 
 	<!-- injector:js -->
-	<script src="/js/b932056b.martinjoiner.min.js"></script>
+	<script src="/js/6020ad39.martinjoiner.min.js"></script>
 	<!-- endinjector -->
 
 	<?php if( isSet( $templateConfig["js"] ) ){

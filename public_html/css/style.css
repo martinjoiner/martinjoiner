@@ -2,9 +2,12 @@ body{
 	padding: 0;
 	margin: 0;
 	font-size: 14px;
-	line-height: 1.9em;
-	color: #222;
+	color: #55596B;
 	font-family: 'Bitter', serif;
+}
+
+body *{
+	line-height: 1.9em;
 }
 
 th, td{
@@ -15,41 +18,45 @@ img{
 	border: 0;
 }
 
-a{
+a,
+#emailPlaceholder{
 	color: #10354f;
-	text-decoration: none;	
+	text-decoration: underline;	
 }
 
-a:hover{
-	text-decoration: underline;
+a:hover,
+#emailPlaceholder:hover{
 	color: #1a537c;
+	cursor: pointer;
 }
 
 h1{
 	font-size: 6em;
-	display: block;
 	width: 100%;
 	padding: 0.5em 0;
-	color: #0d261c;
-	margin: 2em 0;
+	color: #212942;
+	margin: 1em 0;
 	text-align: center;
 	font-family: 'Arbutus Slab', serif;
 }
 
 h2{
-	margin: 2em 0 1em 0;
+	margin: 1.2em 0 0.6em 0;
+	color: #3B3B61;
 }
+
 
 
 /* -------------------------------- */
 
-#header, 
 .masterwrapper, 
 #headerbar, 
 #wrapbody, 
 .footerbar{
-	width: 900px;
+	width: 100%;
+	max-width: 900px;
 }
+
 
 
 /* --------- Global Header --------- */
@@ -68,15 +75,10 @@ h2{
 
 #header a{
 	padding: 0 1em;
-	text-decoration: none;
-}
-
-#header a:hover{
-	color: #720000;
 }
 
 .headerSpace{
-	height: 50px;
+	height: 70px;
 	float: left;
 	width: 100%;
 }
@@ -117,17 +119,16 @@ h2{
 	width: 100%;
 }
 
-.container div{
-	text-align: left;
-}
-
 .masterwrapper, #headerbar, .footerbar{
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #wrapbody{
-	float: right;
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	padding: 0 0.6em;
 	margin-bottom: 20px;
 }
 
@@ -142,23 +143,29 @@ h2{
 }
 
 
+
+
 /* ------------------- Home Page ------------------ */
 /* ------------------------------------------------ */
 
-.flashWrap{
-	width: 450px;
-	height: 253px;
-	margin: 0 auto 2em auto;
-	background-image: url(/images/MartinSketch.jpg);
-	background-size: 450px 233px;
-	background-repeat: no-repeat;
-}
-
-#contact{
+.homeWrap{
 	text-align: center;
 	margin-bottom: 1em;
-	width: 450px;
+	width: 100%;
+	max-width: 450px;
 	margin: 0 auto;
+	font-size: 1.3em;
+}
+
+.homeWrap p{
+	margin-bottom: 2em;
+}
+
+img.homeBlink{
+	width: 100%;
+	max-width: 450px;
+	margin: 4em auto 1em;
+	border-radius: 1em;
 }
 
 .socWrap{
@@ -228,11 +235,17 @@ h2{
 }
 
 .cvPrimaryCol{
+	text-align: left;
 	padding-right: 250px;
 }
 
 .cvPrimaryCol h2{
 	font-size: 2em;
+}
+
+
+.cvPrimaryCol h2 + h3{
+	margin-top: 0;
 }
 
 .cvPrimaryCol h3 span.dRange{
@@ -263,13 +276,6 @@ h2{
 	font-size: 1.2em;
 }
 
-.cvPrimaryCol .contactDetails a{
-	text-decoration: none;
-}
-
-.cvPrimaryCol .contactDetails a:hover{
-	text-decoration: underline;
-}
 
 
 /* ------ Formal Education ------ */
@@ -292,7 +298,9 @@ h2{
 	}
 
 	h1{
-		margin: .6em 0;
+		font-size: 5em;
+		margin: 0 0 5mm 0;
+		padding: 0;
 	}
 }
 

@@ -38,7 +38,7 @@
 	<h3>Other interests</h3>
 
 	<p>I perform improvisation comedy theatre. I paint and build with reclaimed wood. I love to craft with electronics, wood, paint, casting and print. 
-	I run the Bristol half marathon each year. Wild swim in summer. SCUBA diving. Cycle all year round. Juggling.</p>
+	I run the Bristol half marathon each year. Wild swim in summer. <abbr title="Self-Contained Underwater Breathing Apparatus">SCUBA</abbr> diving. Cycle all year round. Juggling.</p>
 	
 	<h3>Other jobs</h3>
 	
@@ -48,7 +48,7 @@
 
 <div class="cvPrimaryCol">
 
-	<div class="contactDetails">Martin Joiner &nbsp;&nbsp; Bristol &nbsp;&nbsp; <span class="emailPlaceholder"></span> &nbsp;&nbsp; <?php if( $_GET['phone'] ) print $_GET['phone']; ?></div>
+	<div class="contactDetails">Martin Joiner &nbsp;&nbsp; Bristol, UK &nbsp;&nbsp; <span id="emailPlaceholder"></span> &nbsp;&nbsp; <?php if( $_GET['phone'] ) print $_GET['phone']; ?></div>
 
 	<h2>About</h2>
 
