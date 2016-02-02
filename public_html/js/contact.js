@@ -9,6 +9,10 @@
 	var elemPlaceholder = document.getElementById('emailPlaceholder'),
 		emailAddress = reverseConcat( ['uk','o.','.c','er','oin','inj','art','@m','in','rt','ma'] );
 
+	if( elemPlaceholder === null ){
+		return;
+	}
+
 	elemPlaceholder.textContent = 'Show email address';
 
 	elemPlaceholder.addEventListener( 'click', function(){
@@ -31,6 +35,8 @@
  * Concatenates an array of strings in reverse order 
  *
  * @param {array} arrParts Array of strings that need concatenating in reverse order 
+ *
+ * @return {string} The resulting string
  */
 function reverseConcat( arrParts ){
 

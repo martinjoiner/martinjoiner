@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+
+// Set default config
+if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
+	$templateConfig["appendSiteNameToTitle"] = true;
+}
+
+?><!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -14,9 +21,15 @@
 
 	<title><?php
 	if( isSet( $templateConfig["title"] ) ){
-		print $templateConfig["title"] . ' - ';
+		print $templateConfig["title"];
 	}
-	?>Martin Joiner</title>
+	if( $templateConfig["appendSiteNameToTitle"] ){
+		if( isSet( $templateConfig["title"] ) ){
+			print ' - ';
+		}
+		print 'Martin Joiner';
+	}
+	?></title>
 
 	<link href='http://fonts.googleapis.com/css?family=Arbutus+Slab' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
@@ -66,7 +79,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
 
 	<!-- injector:js -->
-	<script src="/js/6020ad39.martinjoiner.min.js"></script>
+	<script src="/js/e1123f7d.martinjoiner.min.js"></script>
 	<!-- endinjector -->
 
 	<?php if( isSet( $templateConfig["js"] ) ){
