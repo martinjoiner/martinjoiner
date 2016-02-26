@@ -35,7 +35,7 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- injector:css -->
-	<link rel="stylesheet" href="/css/6f2fae4a.style.min.css">
+	<link rel="stylesheet" href="/css/70e241c7.style.min.css">
 	<!-- endinjector -->
 
 	<?php
@@ -79,7 +79,7 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
 
 	<!-- injector:js -->
-	<script src="/js/e1123f7d.martinjoiner.min.js"></script>
+	<script src="/js/a4f91af0.martinjoiner.min.js"></script>
 	<!-- endinjector -->
 
 	<?php if( isSet( $templateConfig["js"] ) ){

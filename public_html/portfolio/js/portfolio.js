@@ -1,24 +1,34 @@
 
-var params = {};
-params.currentActiveSlide = -99;
-params.slideHeight = 400;
-params.headerHeight = 280;
+/** Global parameters */
+params = {
+	"currentActiveSlide": -99,
+	"slideHeight": 400,
+	"headerHeight": 280
+};
 
 
-$( document ).scroll(function() {
-	updateScrollPos();
-});
+/**
+ * Ensures only 1 slide on the page has the class 'active'
+ *
+ * @param {integer} activeSlide The number slide to be active (0 - x)
+ */
+function setActiveSlide( activeSlide ){
 
-
-function updateCurrentSlide( activeSlide ){
 	params.currentActiveSlide = activeSlide;
-	deactivateAllSlides();
-  	$( "#slide" + activeSlide ).addClass( 'active' );
+
+	$(".slide").each( function(){ 
+
+		var slideID = "slide" + activeSlide;
+
+		if( $(this).attr('id') === slideID ){
+			$(this).addClass( 'active' );
+		} else {
+			$(this).removeClass( 'active' );
+		}
+	});
+
 }
 
-function deactivateAllSlides(){
-	$( ".slide" ).removeClass( 'active' );
-}
 
 function updateScrollPos(){
 
@@ -26,11 +36,16 @@ function updateScrollPos(){
 	var activeSlide = Math.round( scrollPos / params.slideHeight );
 
 	if( activeSlide !== params.currentActiveSlide ){
-		updateCurrentSlide(activeSlide);
+		setActiveSlide(activeSlide);
 	}
 
-	window.setTimeout( updateScrollPos, 50 );
 }
 
-updateScrollPos();
 
+$( document ).scroll(function() {
+	updateScrollPos();
+});
+
+
+/** Initialise the page */
+updateScrollPos();

@@ -1,4 +1,4 @@
-body{
+body {
 	padding: 0;
 	margin: 0;
 	font-size: 14px;
@@ -6,31 +6,31 @@ body{
 	font-family: 'Bitter', serif;
 }
 
-body *{
+body * {
 	line-height: 1.9em;
 }
 
-th, td{
+th, td {
 	vertical-align: top;
 }
 
-img{
+img {
 	border: 0;
 }
 
 a,
-#emailPlaceholder{
+#emailPlaceholder {
 	color: #10354f;
 	text-decoration: underline;	
 }
 
 a:hover,
-#emailPlaceholder:hover{
+#emailPlaceholder:hover {
 	color: #1a537c;
 	cursor: pointer;
 }
 
-h1{
+h1 {
 	font-size: 6em;
 	width: 100%;
 	padding: 0.5em 0;
@@ -40,9 +40,13 @@ h1{
 	font-family: 'Arbutus Slab', serif;
 }
 
-h2{
+h2 {
 	margin: 1.2em 0 0.6em 0;
 	color: #3B3B61;
+}
+
+a.invisible{
+	text-decoration: inherit;
 }
 
 
@@ -52,7 +56,7 @@ h2{
 .masterwrapper, 
 #headerbar, 
 #wrapbody, 
-.footerbar{
+.footerbar {
 	width: 100%;
 	max-width: 900px;
 }
@@ -62,7 +66,7 @@ h2{
 /* --------- Global Header --------- */
 /* --------------------------------- */
 
-#header{
+#header {
 	position: fixed;
 	width: 100%;
 	height: 70px;
@@ -74,11 +78,11 @@ h2{
 	box-shadow: 0 1px 10px rgba(0,0,0,0.2);
 }
 
-#header a{
+#header a {
 	padding: 0 1em;
 }
 
-.headerSpace{
+.headerSpace {
 	height: 70px;
 	float: left;
 	width: 100%;
@@ -86,46 +90,46 @@ h2{
 
 /* -------------------------- */
 
-#headerbar{
+#headerbar {
 	float: left;
 	height: 35px;
 	margin-bottom: 20px;
 }
 
-#headerlinks{
+#headerlinks {
 	margin-top: 60px;
 	width: 600px;
 	height: 20px;
 	float: left;
 }
 
-.headerlink{
+.headerlink {
 	float: left;
 	margin-left: 18px;
 }
 
-.headerlink a{
+.headerlink a {
 	text-decoration: none;
 	color: #666666;
 	font-size: 12px;
 }
 
-.headerlink a:hover{
+.headerlink a:hover {
 	text-decoration: none;
 	color: #CCCCCC;
 }
 
-.container{
+.container {
 	text-align: center;
 	width: 100%;
 }
 
-.masterwrapper, #headerbar, .footerbar{
+.masterwrapper, #headerbar, .footerbar {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#wrapbody{
+#wrapbody {
 	box-sizing: border-box;
 	float: left;
 	width: 100%;
@@ -133,13 +137,13 @@ h2{
 	margin-bottom: 20px;
 }
 
-.link{
+.link {
 	width: 182px;
 	height: 64px;
 	background-image: url(images/Box.jpg);
 }
 
-.link:hover{
+.link:hover {
 	background-position: -182px;
 }
 
@@ -149,7 +153,7 @@ h2{
 /* ------------------- Home Page ------------------ */
 /* ------------------------------------------------ */
 
-.homeWrap{
+.homeWrap {
 	text-align: center;
 	margin-bottom: 1em;
 	width: 100%;
@@ -158,23 +162,23 @@ h2{
 	font-size: 1.3em;
 }
 
-.homeWrap p{
+.homeWrap p {
 	margin-bottom: 2em;
 }
 
-img.homeBlink{
+img.homeBlink {
 	width: 100%;
 	max-width: 450px;
 	margin: 4em auto 1em;
 	border-radius: 1em;
 }
 
-.socWrap{
+.socWrap {
 	width: 270px; /* ( 4 x 60px ) + ( 3 x 10px padding ) */
 	margin: 0 auto;
 }
 
-.socialLink{
+.socialLink {
 	background-image: url(/images/Social-Spritesheet.svg);
 	background-size: 120px 120px;
 	display: block;
@@ -190,30 +194,30 @@ img.homeBlink{
 			transition: margin .2s;
 }
 
-.socialLink:last-child{
+.socialLink:last-child {
 	margin-right: 0;
 }
 
 .twitLink:hover,
 .gitLink:hover,
 .soLink:hover,
-.liLink:hover{
+.liLink:hover {
 	margin-top: 0px;
 }
 
-.twitLink{
+.twitLink {
 	background-position: -2px -2px;
 }
 
-.gitLink{
+.gitLink {
 	background-position: -61px -61px;
 }
 
-.soLink{
+.soLink {
 	background-position: 0 -60px;
 }
 
-.liLink{
+.liLink {
 	background-position: -60px 0;
 }
 
@@ -222,7 +226,7 @@ img.homeBlink{
 /* ------------------------ CV Layout ----------------------- */
 /* ---------------------------------------------------------- */
 
-.cvSecondaryCol{
+.cvSecondaryCol {
 	width: 200px;
 	padding-left: 5mm;
 	float: right;
@@ -230,31 +234,31 @@ img.homeBlink{
 	color: #555;
 }
 
-.cvSecondaryCol h2{
+.cvSecondaryCol h2 {
 	border-bottom: 1px solid #888;
 	line-height: 1.8em;
 	margin-top: 0;
 }
 
-.cvSecondaryCol p{
+.cvSecondaryCol p {
 	margin-bottom: 3em;
 }
 
-.cvPrimaryCol{
+.cvPrimaryCol {
 	text-align: left;
 	padding-right: 250px;
 }
 
-.cvPrimaryCol h2{
+.cvPrimaryCol h2 {
 	font-size: 2em;
 }
 
 
-.cvPrimaryCol h2 + h3{
+.cvPrimaryCol h2 + h3 {
 	margin-top: 0;
 }
 
-.cvPrimaryCol h3 span.dRange{
+.cvPrimaryCol h3 span.dRange {
 	float: right;
 	width: 34mm;
 	text-align: right;
@@ -263,22 +267,22 @@ img.homeBlink{
 	font-weight: normal;
 }
 
-.cvPrimaryCol ul{
+.cvPrimaryCol ul {
 	padding: 0 0 0 5mm;
 }
 
-.cvPrimaryCol h3{
+.cvPrimaryCol h3 {
 	margin-top: 3em;
 }
 
-.outLink{
+.outLink {
 	color: #888;
 	list-style: none;
 }
 
 /* ------- Contact Details -------- */
 
-.cvPrimaryCol .contactDetails{
+.cvPrimaryCol .contactDetails {
 	font-size: 1.2em;
 }
 
@@ -286,24 +290,24 @@ img.homeBlink{
 
 /* ------ Formal Education ------ */
 
-.cvPrimaryCol ul.formaleducation{
+.cvPrimaryCol ul.formaleducation {
 	list-style: none;
 }
 
-.cvPrimaryCol ul.formaleducation li{
+.cvPrimaryCol ul.formaleducation li {
 	margin-bottom: 1em;
 }
 
 
 
-@media print{
+@media print {
 
 	#header,
-	.headerSpace{
+	.headerSpace {
 		display: none;
 	}
 
-	h1{
+	h1 {
 		font-size: 5em;
 		margin: 0 0 5mm 0;
 		padding: 0;
@@ -313,21 +317,26 @@ img.homeBlink{
 
 
 
-/* ------------------------ Portfolio ------------------------- */
-/* ------------------------------------------------------------ */
+/* -------------------------------------------- Portfolio --------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
 
-.slide{
+.portfolioIntro{
+	margin-top: -2em;
+    margin-bottom: 4em;
+}
+
+.slide {
 	width: 900px;
 	height: 400px;
 }
 
-.innerStage{
+.innerStage {
 	position: absolute;
 	width: 600px;
 	height: 400px;
 }
 
-.slideInner{
+.slideImage {
 	width: 540px;
 	height: 360px;
 	background-size: 540px 360px;
@@ -353,39 +362,7 @@ img.homeBlink{
 			box-shadow: inset 1px 1px 0 rgba(255,255,255,0.1), inset -1px -1px 0 rgba(0,0,0,0.3);
 }
 
-#slide0 .slideInner{
-	background-image: url(/portfolio/images/CCH-Screenshot.png);
-}
-
-#slide1 .slideInner{
-	background-image: url(/portfolio/images/Storywalks.jpg);
-}
-
-#slide2 .slideInner{
-	background-image: url(/portfolio/images/OpenMicFinder.jpg);
-}
-
-#slide3 .slideInner{
-	background-image: url(/portfolio/images/BCM-Screenshot.png);
-}
-
-#slide4 .slideInner{
-	background-image: url(/portfolio/images/Timeline.jpg);
-}
-
-#slide5 .slideInner{
-	background-image: url(/portfolio/images/Mackay-Screenshot.png);
-}
-
-#slide6 .slideInner{
-	background-image: url(/portfolio/images/BristolOpen.jpg);
-}
-
-#slide7 .slideInner{
-	background-image: url(/portfolio/images/WildWestFitness.jpg);
-}
-
-.slide .notes{
+.slide .notes {
 	position: absolute;
 	-webkit-transition: margin-left .4s cubic-bezier(.11,-0.7,.35,1.01), opacity .3s;
 	   -moz-transition: margin-left .4s cubic-bezier(.11,-0.7,.35,1.01), opacity .3s;
@@ -404,7 +381,7 @@ img.homeBlink{
 
 }
 
-.slide.active .slideInner{
+.slide.active .slideImage {
 	opacity: 1;
 	-webkit-transform: perspective( 1200px ) rotateY( 0deg );
 	   -moz-transform: perspective( 1200px ) rotateY( 0deg );
@@ -415,12 +392,12 @@ img.homeBlink{
 			box-shadow: 0 16px 25px -6px #555;
 }
 
-.slide.active .notes{
+.slide.active .notes {
 	opacity: 1;
 	margin-left: 600px;
 }
 
-.bottomSpace{
+.bottomSpace {
 	width: 100%;
 	float: left;
 	height: 360px;
