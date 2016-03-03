@@ -8,21 +8,19 @@
 	<h3>Familiar Technologies</h3>
 
 	<p>
-		<strong>Markups:</strong> HTML, SVG, XML.
-		<strong>Languages:</strong> PHP, Javascript, CSS, MySQL, ColdFusion, Blade, Twig.
-		<strong>Libraries/Frameworks:</strong> JQuery, AngularJS, NodeJS, Drupal, Symfony, Laravel (MVC), WordPress.
-		<strong>Build tools:</strong> Grunt, Gulp, LESS, SASS, Elixir. 
+		<strong>Server-side:</strong> PHP, MySQL, Symfony, Laravel, WordPress, NodeJS, Drupal.
+		<strong>Client-side:</strong> HTML, SVG, XML, JavaScript, jQuery, AngularJS, CSS, LESS, SASS, WebGL.
+		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Elixir. 
 		<strong>Version control:</strong> GIT, SVN. 
-		<strong>APIs:</strong> Google Maps, MapBox, HighCharts, Twitter, MailChimp.
+		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MailChimp, Transport.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
-		<strong>Naming conventions:</strong> Hungarian notation, BEM, <em>team custom</em>.
 		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X)
-		<strong>Other fun stuff:</strong> Arduino, PhoneGap.  
+		<strong>Other:</strong> Arduino, PhoneGap.  
 	</p>
 
 	<h3>Visual</h3>
 
-	<p>Photoshop, Illustrator, branding + logo design, 2D and 3D animation, 3D modelling, digital photography + retouching, video production, sketching + drawing.</p>
+	<p>Adobe CC (Photoshop + Illustrator), logo and style design, 2D and 3D animation, 3D modelling, digital photography + retouching, video production, sketching + drawing.</p>
 
 	<h3>Interactive</h3>
 
@@ -30,8 +28,7 @@
 
 	<h3>Communication</h3>
 
-	<p>Public speaking, stage performance, teaching, project management, 
-	creative writing including poetry, statistical visualisation, project collaboration</p>
+	<p>Public speaking, teaching, project management, statistical visualisation, prototyping, sketching</p>
 
 	<h2>Other</h2>
 
@@ -60,7 +57,19 @@
 
 
 
-	<h2>Projects</h2>
+	<h2>Roles &amp; Projects</h2>
+
+	<h3>OpenMicFinder.co.uk <span class="dRange">2010 &ndash; Present</span></h3>
+
+	<p>Owner creator</p>
+
+	<p>I launched <abbr title="Open Mic Finder">OMF</abbr> in 2010 and it's now grown to have 20,000+ active users monthly 
+	and generates revenue from advertising. A responsive user-generated content site with an expansive 
+	<abbr title="Content Management Systems">CMS</abbr> for admin and solutions to tackle data-rot and spam submissions. </p>
+
+	<ul class="outLink">
+		<li>&ndash; <a href="http://openmicfinder.co.uk">openmicfinder.co.uk</a></li>
+	</ul>
 
 
 
@@ -82,9 +91,9 @@
 
 	<p>Senior web developer</p>
 
-	<p>Front-end developer in automotive web. Retrained in ColdFusion for the role. Building sites for Mercedes-Benz, VW Group, Ford and others. 
-	Backwards compatibility for executives still on IE7. Continual improvement of products and taxation decision tools. Interaction and <abbr title="User Experience">UX</abbr> design. 
-	Multiple site rebrands and logo designs. In-house frameworks.</p>
+	<p>Combination of internal and client projects in the automotive web. Building specialist tools and features on sites for Mercedes-Benz, 
+	VW Group, Ford and similar. Backwards compatibility for executives still running IE7 on XP. Continual improvement of products and taxation decision 
+	tools. Interaction and <abbr title="User Experience">UX</abbr> design. Multiple site rebrands and logo designs.</p>
 
 	<ul class="outLink">
 		<li>&ndash; <a href="http://www.comparecontracthire.com/">www.comparecontracthire.com</a></li>
@@ -95,9 +104,10 @@
 
 	<h3>Storywalks <span class="dRange">2012 &ndash; Present</span></h3>
 
-	<p>Lead developer</p>
+	<p>UXer, designer and developer</p>
 
-	<p>Creator of an award-winning literacy app for KS2+3 in schools. GPS triggered interactive story. Written mainly in Javascript with PHP and MySQL back-end.</p>
+	<p>Co-creator of an award-winning literacy app for KS2+3 in schools. GPS triggered interactive story. Written mainly in 
+	Javascript with PHP and MySQL back-end.</p>
 
 	<ul class="outLink">
 		<li>&ndash; <a href="http://storywalks.info">storywalks.info</a></li>
@@ -105,22 +115,12 @@
 
 
 
-	<h3>Open Mic Finder <span class="dRange">2010 &ndash; Present</span></h3>
-
-	<p>Responsive user-generated content site. Solo project that generates revenue through advertising. 
-	Expansive <abbr title="Content Management Systems">CMS</abbr> for admin and solutions for data-rot and spam submissions.</p>
-
-	<ul class="outLink">
-		<li>&ndash; <a href="http://openmicfinder.co.uk">openmicfinder.co.uk</a></li>
-	</ul>
-
-
-
 	<h3>Full-time freelance <span class="dRange">2006 &ndash; 2012</span></h3>
 
 	<p>Shipped my own eCommerce framework with <abbr title="Content Management Systems">CMS</abbr> to several clients. 
-	Company branding and website developement/design for wide range of <abbr title="Small and medium-sized enterprises">SMEs</abbr>. Adopted and re-worked old sites.
-	</p>
+	Company branding and website developement/design for wide range of <abbr title="Small and medium-sized enterprises">SMEs</abbr>. 
+	Adopted and re-worked old sites.</p>
+
 	<ul class="outLink">
 		<li>&ndash; <a href="http://www.mackaydesignstudio.co.uk/">www.mackaydesignstudio.co.uk</a></li>
 		<li>&ndash; <a href="http://wildwestfitness.co.uk/">wildwestfitness.co.uk</a></li>
@@ -129,6 +129,8 @@
 
 
 	<h3>Rolls-Royce <span class="dRange">2012</span></h3>
+
+	<p>Contractor</p>
 	
 	<p>Short-term freelance roll to make alterations to a huge Javascript based internal site for training international sales staff. Vanilla Javascript.</p> 
 
@@ -136,13 +138,14 @@
 
 	<h3>Wessex Malthouse Design <span class="dRange">2008 &ndash; 2009</span></h3>
 
-	<p>Lead web designer working alongside graphic design for print. Introduced new web department delivering new builds and maintenance of sites for company's existing print clients.</p>
+	<p>Lead web designer working alongside graphic design for print. Introduced new web department delivering new builds and 
+	maintenance of sites for company's existing print clients.</p>
 
 
 
 	<h3>Highbridge Caravans <span class="dRange">2006 &ndash; 2007</span></h3>
 
-	<p>Produced online video tours of luxury vehicles. Design overhaul of the company website. Adobe Flash animation and <abbr title="Search engine optimisation">SEO</abbr>. Learned PHP for the role.</p>
+	<p>Produced online video tours of luxury vehicles. Overhauled the design of the company website. Adobe Flash animation and <abbr title="Search engine optimisation">SEO</abbr>. Learned PHP for the role.</p>
 
 
 	<h2>Formal Education</h2>
