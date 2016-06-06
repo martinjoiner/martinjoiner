@@ -10,21 +10,22 @@
 	<p>
 		<strong>Server-side:</strong> PHP, MySQL, Symfony, Laravel, WordPress, NodeJS, Drupal.
 		<strong>Client-side:</strong> HTML, SVG, XML, JavaScript, jQuery, AngularJS, CSS, LESS, SASS, WebGL.
+		<strong>Testing:</strong> <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>. 
 		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Elixir. 
 		<strong>Version control:</strong> GIT, SVN. 
 		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MailChimp, Transport.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
-		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X)
+		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X), <abbr title="Secure Sockets Layer">SSL</abbr> HTTPS, <a href="https://www.vagrantup.com/">Vagrant</a>
 		<strong>Other:</strong> Arduino, PhoneGap.  
 	</p>
 
 	<h3>Visual</h3>
 
-	<p>Adobe CC (Photoshop + Illustrator), logo and style design, 2D and 3D animation, 3D modelling, digital photography + retouching, video production, sketching + drawing.</p>
+	<p>Adobe CC (Photoshop + Illustrator), logo and style design, sketching/drawing, wireframing, 2D and 3D animation, 3D modelling, digital photography + retouching, video production.</p>
 
 	<h3>Interactive</h3>
 
-	<p>Responsive web design, accessibility, UX.</p>
+	<p>Responsive web design, accessibility, UX, <a href="http://developerexperience.org/">DX</a>.</p>
 
 	<h3>Communication</h3>
 
@@ -78,7 +79,7 @@
 	<p>Senior front-end developer</p>
 
 	<p>I worked as part of a large multi-discipline custom development team to deliver a major website project for a big consumer brand client. 
-	My role included writing the key Javascript for the data visualisation and geographical mapping sections of the site.  </p>
+	My role included writing the key JavaScript for the data visualisation and geographical mapping sections of the site.  </p>
 
 	<ul class="outLink">
 		<li>&ndash; <a href="http://www.somoglobal.com/">www.somoglobal.com</a></li>
@@ -107,7 +108,7 @@
 	<p>UXer, designer and developer</p>
 
 	<p>Co-creator of an award-winning literacy app for KS2+3 in schools. GPS triggered interactive story. Written mainly in 
-	Javascript with PHP and MySQL back-end.</p>
+	JavaScript with PHP and MySQL back-end.</p>
 
 	<ul class="outLink">
 		<li>&ndash; <a href="http://storywalks.info">storywalks.info</a></li>
@@ -132,7 +133,7 @@
 
 	<p>Contractor</p>
 	
-	<p>Short-term freelance roll to make alterations to a huge Javascript based internal site for training international sales staff. Vanilla Javascript.</p> 
+	<p>Short-term freelance roll to make alterations to a huge JavaScript based internal site for training international sales staff. Vanilla JavaScript.</p> 
 
 
 
