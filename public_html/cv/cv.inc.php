@@ -60,16 +60,16 @@
 
 	<h2>Roles &amp; Projects</h2>
 
-	<h3>OpenMicFinder.co.uk <span class="dRange">2010 &ndash; Present</span></h3>
+	<h3>OpenMicFinder.com <span class="dRange">2010 &ndash; Present</span></h3>
 
 	<p>Owner creator</p>
 
-	<p>I launched <abbr title="Open Mic Finder">OMF</abbr> in 2010 and it's now grown to have 20,000+ active users monthly 
+	<p>I launched <abbr title="Open Mic Finder">OMF</abbr> in 2010 and it's now grown into a trusted brand with 22,000+ active users monthly 
 	and generates revenue from advertising. A responsive user-generated content site with an expansive 
 	<abbr title="Content Management Systems">CMS</abbr> for admin and solutions to tackle data-rot and spam submissions. </p>
 
 	<ul class="outLink">
-		<li>&ndash; <a href="http://openmicfinder.co.uk">openmicfinder.co.uk</a></li>
+		<li>&ndash; <a href="http://openmicfinder.com/UK">openmicfinder.com</a></li>
 	</ul>
 
 
