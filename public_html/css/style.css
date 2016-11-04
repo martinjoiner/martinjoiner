@@ -253,12 +253,20 @@ img.homeBlink {
 	font-size: 1.1em;
 }
 
+.cvPrimaryCol p {
+	margin-top: 0;
+}
+
 .cvPrimaryCol h2 {
 	font-size: 2em;
 }
 
 .cvPrimaryCol h2 + h3 {
 	margin-top: 0;
+}
+
+.cvPrimaryCol h3 {
+	margin-bottom: 0.5em;
 }
 
 .cvPrimaryCol h3 span.dRange {
@@ -290,6 +298,7 @@ img.homeBlink {
 .outLink {
 	color: #888;
 	list-style: none;
+	margin-top: 0;
 }
 
 /* ------- Contact Details -------- */
@@ -306,10 +315,6 @@ img.homeBlink {
 	list-style: none;
 }
 
-.cvPrimaryCol ul.formaleducation li {
-	margin-bottom: 1em;
-}
-
 
 
 @media print {
@@ -320,7 +325,7 @@ img.homeBlink {
 	}
 
 	h1 {
-		font-size: 5em;
+		font-size: 4em;
 		margin: 0 0 5mm 0;
 		padding: 0;
 	}

@@ -35,12 +35,13 @@
 
 	<h3>Other interests</h3>
 
-	<p>I perform improvisation comedy theatre. I paint and build with reclaimed wood. I love to craft with electronics, wood, paint, casting and print. 
-	I run the Bristol half marathon each year. Wild swim in summer. <abbr title="Self-Contained Underwater Breathing Apparatus">SCUBA</abbr> diving. Cycle all year round. Juggling.</p>
+	<p>I am a volunteer and artist with Upfest. I hack hardware for fun and art.  
+	Member of local running club, I run the Bristol half marathon each year. Wild swim in the summer. Qualified <abbr title="Self-Contained Underwater Breathing Apparatus">SCUBA</abbr> diver. 
+	Cycle all year round. I can juggle. I have performed comedy theatre and poetry in a previous life. Love films and pitching <em>&quot;Name X...&quot;</em> challenges to my housemates eg. <em>&quot;Name 5 films where a lead character sunbathes&quot;</em>. I possess and extraordinarily acute sense of smell.</p>
 	
-	<h3>Other jobs</h3>
+	<h3>Other (non-web) jobs</h3>
 	
-	<p>Commissioning artist / Artist in residence at University of Plymouth / Weekly event host / Workshop teacher / Juggler / Nightclub VJ</p>
+	<p>Commissioning artist / Artist in residence at University of Plymouth / Open mic host / Juggling teacher / Nightclub VJ / Gardener / Pancake chef</p>
 
 </div>
 
@@ -78,7 +79,7 @@
 	<div class="projectWrap">
 		<h3>BookFetch <span class="dRange">2016</span></h3>
 
-		<p>A multi-device platform for a charitable startup. Uses Python, Raspberry Pi, Drupal 8, custom REST API and public APIs.</p>
+		<p>A multi-device platform for a charitable startup. Uses Python, Raspberry Pi, Drupal 8, custom REST API and public APIs. Special emphasis on absolute ease of use at speed. The whole interface was a single beep noise.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://bookfetch.co.uk/">bookfetch.co.uk</a> (still under development)</li>
@@ -90,7 +91,7 @@
 	<div class="projectWrap">
 		<h3>Poetry Pin <span class="dRange">2016</span></h3>
 
-		<p>GPS sensitive mobile web app that allows public to submit poetry along defined walking routes. </p>
+		<p>GPS sensitive mobile web app that allows public to submit poetry along defined walking routes. Assumption of trust with public flagging and on-the-fly administration.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://poetrypin.info/">poetrypin.info</a></li>
@@ -201,9 +202,8 @@
 
 	<h2>Formal Education</h2>
 	<ul class="formaleducation">
-		<li>University of Plymouth</li>
-		<li>2003-7 BA (Hons) Fine Art - Graduated with 1st Class Honours</li>
-		<li>2001-2 BSc (Hons) Computing Informatics (transferred)</li>
+		<li>2003-7 BA (Hons) Fine Art &ndash; 1st Class Honours &ndash; University of Plymouth</li>
+		<li>2001-2 BSc (Hons) Computing Informatics &ndash; University of Plymouth</li>
 	</ul>
 
 </div>

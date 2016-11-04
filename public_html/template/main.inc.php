@@ -35,7 +35,7 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- injector:css -->
-	<link rel="stylesheet" href="/css/98935608.style.min.css">
+	<link rel="stylesheet" href="/css/3ef49580.style.min.css">
 	<!-- endinjector -->
 
 	<?php
