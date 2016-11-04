@@ -249,10 +249,13 @@ img.homeBlink {
 	padding-right: 250px;
 }
 
+.cvPrimaryCol .introParagraph {
+	font-size: 1.1em;
+}
+
 .cvPrimaryCol h2 {
 	font-size: 2em;
 }
-
 
 .cvPrimaryCol h2 + h3 {
 	margin-top: 0;
@@ -271,8 +274,17 @@ img.homeBlink {
 	padding: 0 0 0 5mm;
 }
 
-.cvPrimaryCol h3 {
-	margin-top: 3em;
+.cvPrimaryCol .projectWrap {
+	margin-bottom: 2em;
+}
+
+.cvPrimaryCol .projectWrap p {
+	line-height: 1.7em;
+}
+
+.cvPrimaryCol p.role {
+	font-size: 0.9em;
+	font-style: italic;
 }
 
 .outLink {

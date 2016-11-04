@@ -7,6 +7,10 @@
 	RewriteCond %{HTTP_HOST} ^www\.martinjoiner\.co.uk$ [NC]
 	RewriteRule ^(.*)$ http://martinjoiner.co.uk/$1 [L,R=301]
 
+	# Redirect CV to cv
+  RewriteCond %{REQUEST_URI} CV
+  RewriteRule CV /cv [L,R=301]
+
 </IfModule>
 
 <ifModule mod_expires.c>
