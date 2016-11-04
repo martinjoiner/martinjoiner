@@ -8,15 +8,15 @@
 	<h3>Familiar Technologies</h3>
 
 	<p>
-		<strong>Server-side:</strong> PHP, MySQL, Symfony, Laravel, WordPress, NodeJS, Drupal.
-		<strong>Client-side:</strong> HTML, SVG, XML, JavaScript, jQuery, AngularJS, CSS, LESS, SASS, WebGL.
+		<strong>Server-side:</strong> MySQL, PHP, Laravel, Drupal, Symfony, WordPress, NodeJS, Bash, Python.
+		<strong>Client-side:</strong> HTML, SVG, JavaScript, jQuery, AngularJS, CSS, LESS, SASS, WebGL (Three.js). 
 		<strong>Testing:</strong> <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>. 
 		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Elixir. 
 		<strong>Version control:</strong> GIT, SVN. 
-		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MailChimp, Transport.
+		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MeetUp, MailChimp, Transport, ISBNdb.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
 		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X), <abbr title="Secure Sockets Layer">SSL</abbr> HTTPS, <a href="https://www.vagrantup.com/">Vagrant</a>
-		<strong>Other:</strong> Arduino, PhoneGap.  
+		<strong>Other:</strong> Arduino, Raspberry Pi, PhoneGap. Open source contributor. 
 	</p>
 
 	<h3>Visual</h3>
