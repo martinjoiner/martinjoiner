@@ -301,6 +301,11 @@ img.homeBlink {
 	margin-top: 0;
 }
 
+.cvFullWidthCol {
+	float: left;
+	width: 100%;
+}
+
 /* ------- Contact Details -------- */
 
 .cvPrimaryCol .contactDetails {
@@ -311,7 +316,7 @@ img.homeBlink {
 
 /* ------ Formal Education ------ */
 
-.cvPrimaryCol ul.formaleducation {
+.cvFullWidthCol ul.formaleducation {
 	list-style: none;
 }
 

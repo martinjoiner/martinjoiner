@@ -185,7 +185,8 @@
 		</ul>
 	</div>
 
-
+</div>
+<div class="cvFullWidthCol">
 
 	<h2>Historic roles</h2>
 
