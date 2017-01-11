@@ -5,6 +5,12 @@
 
 <?php
 
+$arrSlies[] = [	'header' 	=> 'Poetry Pin',
+				'blurb' 	=> 'Mobile web app using device GPS to discover and submit geo-located poems. PHP, RESTful API, Composer, PHPSpec, Gulp, JavaScript, Twitter API.',
+				'url' 		=> 'poetrypin.info',
+				'image' 	=> '/portfolio/images/PoetryPin.jpg'
+];
+
 $arrSlies[] = [ 'header' 	=> 'Compare Contract Hire',
 				'blurb' 	=> 'Responsive automotive contract comparison site. Via job at Carmen Data. ColdFusion, custom API, JavaScript, CSS.',
 				'url' 		=> 'www.comparecontracthire.com',
@@ -12,7 +18,7 @@ $arrSlies[] = [ 'header' 	=> 'Compare Contract Hire',
 ];
 
 $arrSlies[] = [ 'header' 	=> 'Open Mic Finder',
-				'blurb' 	=> 'Responsive user-generated content site with custom CMS now attracting over 20,000 unique users monthly. Self-initiated. Built in PHP, 
+				'blurb' 	=> 'International user-generated content site with custom CMS now attracting over 23,000 unique users monthly. Self-initiated. PHP, 
 								JavaScript, jQuery, several APIs: Twitter, <a target="_blank" href="http://www.meetup.com/meetup_api/" class="invisible" title="Meetup API">Meetup</a>, Google Maps, <a target="_blank" href="http://www.transportapi.com/" class="invisible" title="Transport API">Transport</a>.',
 				'url' 		=> 'openmicfinder.co.uk',
 				'image' 	=> '/portfolio/images/OpenMicFinder.jpg'
@@ -32,7 +38,7 @@ $arrSlies[] = [ 'header' 	=> 'Storywalks',
 ];
 
 $arrSlies[] = [	'header' 	=> 'Circa Maps Project',
-				'blurb' 	=> 'Self-initiated generative design project. Uses web technologies to algorithmically grow artworks that simulate city maps. 
+				'blurb' 	=> 'Generative design project. Uses web technologies to algorithmically grow artworks that simulate city maps. 
 								JavaScript interface to visualise coordinate geometry logic written with OO PHP that generates SVG markup.',
 				'url' 		=> 'circa.butterscotchworld.co.uk',
 				'reponame' 	=> 'circa-maps',
@@ -80,12 +86,6 @@ $arrSlies[] = [	'header' 	=> 'Bristol Open',
 								Via job at Carmen Data. ColdFusion.',
 				'url' 		=> 'bristolopen.info',
 				'image' 	=> '/portfolio/images/BristolOpen.jpg'
-];
-
-$arrSlies[] = [	'header' 	=> 'Wild West Fitness',
-				'blurb' 	=> 'Responsive information site and custom tournament entry system for annual fitness challenge. Freelance client. PHP.',
-				'url' 		=> 'wildwestfitness.martinjoiner.co.uk',
-				'image' 	=> '/portfolio/images/WildWestFitness.jpg'
 ];
 
 
