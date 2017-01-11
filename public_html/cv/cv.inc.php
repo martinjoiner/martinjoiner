@@ -35,9 +35,9 @@
 
 	<h3>Other interests</h3>
 
-	<p>I am a volunteer and artist with Upfest. I hack hardware for fun and art.  
-	Member of local running club, I run the Bristol half marathon each year. Wild swim in the summer. Qualified <abbr title="Self-Contained Underwater Breathing Apparatus">SCUBA</abbr> diver. 
-	Cycle all year round. I can juggle. I have performed comedy theatre and poetry in a previous life. Love films and pitching <em>&quot;Name X...&quot;</em> challenges to my housemates eg. <em>&quot;Name 5 films where a lead character sunbathes&quot;</em>. I possess and extraordinarily acute sense of smell.</p>
+	<p>I am a volunteer and artist with annual street art festival, Upfest. I hack hardware for fun and art.  
+	Member of local running club. Wild swimmer. Qualified <abbr title="Self-Contained Underwater Breathing Apparatus">SCUBA</abbr> diver. 
+	Bitcoin trader.</p>
 	
 	<h3>Other (non-web) jobs</h3>
 	
@@ -64,11 +64,10 @@
 
 		<h3>Open Mic Finder <span class="dRange">2010+</span></h3>
 
-		<p>I launched <abbr title="Open Mic Finder">OMF</abbr> in 2010 driven by a frustration with a lack of accurate information about Open Mic events in the UK. 
-		With a relentlessly humble attitude to honouring accuracy it gained the trust of 22,000+ active monthly users. It's a solo project so everything you see 
+		<p>I launched <abbr title="Open Mic Finder">OMF</abbr> in 2010 after identifying a need for accurate information about Open Mic events in the UK. 
+		With a relentlessly humble attitude to honouring accuracy it gained the trust of 23,000+ active monthly users. It's a solo project so everything you see 
 		on the site was created by me. It hosts user-generated content so I have had to come up with solutions to tackle problems with data quality, data rot, 
-		spam, duplication and abuse. I often smile when the solutions I implement lead to new and unexpected user-behaviours. It's a marathon... but I enjoy 
-		marathons.</p>
+		spam, duplication and abuse.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://openmicfinder.com/UK">openmicfinder.com</a></li>
