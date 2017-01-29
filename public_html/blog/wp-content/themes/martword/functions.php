@@ -437,7 +437,7 @@ return $top_list;
 function lw_header_image(){
     ?>
     <div id="topBox">
-        <h1><a title="<?php bloginfo('name'); ?>" href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <big><a title="<?php bloginfo('name'); ?>" href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></big>
         <small class="strapLine"><?php bloginfo('description'); ?></small>
         
     </div>

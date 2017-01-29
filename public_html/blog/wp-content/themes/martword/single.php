@@ -10,7 +10,7 @@
 
 			<?php lw_simple_date(); ?>
 
-			<h2 class="postTitle"><?php the_title(); ?></h2>
+			<h1 class="postTitle"><?php the_title(); ?></h1>
 
 			<?php the_content(''); ?>
 			<?php if(function_exists('wp_print')) { print_link(); } ?>
