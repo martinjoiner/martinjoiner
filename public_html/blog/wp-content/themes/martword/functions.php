@@ -578,7 +578,7 @@ break;
 
 
 function lw_simple_date(){
-    echo "<div class=\"simple_date\">".__('Posted on','lightword')." ".get_the_time('F j, Y')."</div>";
+    echo "<div class=\"simple_date\">".get_the_time('j F Y')."</div>";
 }
 
 // LEGACY COMMENTS / FOR OLD VERSION OF WORDPRESS

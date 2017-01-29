@@ -6,11 +6,11 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 	<div <?php if (function_exists("post_class")) post_class(); else print 'class="post"'; ?> id="post-<?php the_ID(); ?>">
+		<div class="postContent singlePost">
 
-		<div class="postContent">
 			<?php lw_simple_date(); ?>
 
-			<h2 class="postTitle"><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+			<h2 class="postTitle"><?php the_title(); ?></h2>
 
 			<?php the_content(''); ?>
 			<?php if(function_exists('wp_print')) { print_link(); } ?>

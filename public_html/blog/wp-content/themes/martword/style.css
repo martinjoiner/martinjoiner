@@ -42,30 +42,48 @@ p{font-size:1.2em;padding:2px;margin:1px 0 15px;}
 
 a{color:#807D7A;}
 
-
-.simple_date{
-	color: #999;
-	text-align: center;
-	padding: 8px 25px;
-	margin-bottom:1em;
-}
-
-h2.postTitle{
-	text-transform: uppercase;
-	text-align: center;
-	letter-spacing: -1px;
-	font-size: 3em;
-	padding-bottom: 3px;
-	font-weight: 700;
-	margin: 0 0 2em 0;
+h1, h2, h3 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-h2 a{
+.simple_date {
+	color: #999;
+	padding: 8px 0;
+}
+
+.singlePost .simple_date {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+h2.postTitle {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	
+	padding-bottom: 3px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.postList h2.postTitle {
+	font-size: 2em;
+}
+
+.singlePost h2.postTitle {
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 2em;
+}
+
+h2 a {
 	font-weight: inherit;
 	text-decoration: inherit;
 	color: inherit;
 }
+
+h2 a:hover {
+	text-decoration: underline;
+} 
 
 h3{font-size:1.8em;}
 
@@ -88,6 +106,16 @@ pre{width:100%; white-space:pre-wrap;}
 #content{
 	float: left; 
 	width: 100%;
+}
+
+
+#content > h1:first-child {
+	color: #ffefda;
+	text-transform: uppercase;
+	margin: 0.8em 0 1.1em;
+	text-align: center;
+	font-size: 3em;
+	text-shadow: 0 6px 6px rgba(0,0,0,0.5);
 }
 
 /* ------- Header -------- */
@@ -311,12 +339,21 @@ img.size-full{
 	height: auto;
 }
 
-.postContent{
+.postContent {
 	background-color: white;
-	padding: 8em 8em 4em 8em;
+	margin-bottom: 2em;
+	box-shadow: 0 20px 10px -10px rgba(0,0,0,0.5);
+}
+
+.postContent.postList {
+	line-height: 1.5;
+	padding: 3em 6em 3em 6em;
+}
+
+.postContent.singlePost {
 	line-height: 1.7;
 	margin-bottom: 10em;
-	box-shadow: 0 20px 10px -10px rgba(0,0,0,0.5);
+	padding: 8em 8em 4em 8em;
 }
 
 abbr, acronym, span.abbr{cursor:help;border-bottom:1px dotted #000;}
