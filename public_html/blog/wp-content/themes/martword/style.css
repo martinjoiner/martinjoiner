@@ -28,11 +28,15 @@ tbody,tfoot,thead,tr,th,td{
 
 .clear{clear:both;}
 
+html {
+	min-height: 100%;
+}
+
 body{
 	background-color: #2C2C29;
-
+	
 	background-image: linear-gradient( to bottom, #000 0px, #000 100px, #2C2C29 500px);
-	font-family:Tahoma;
+	font-family: Tahoma;
 	font-size: 14px;
 	color: #2C2C29;
 	padding: 0 2em;
