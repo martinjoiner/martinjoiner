@@ -9,7 +9,7 @@
 
 		<div class="postContent">
 
-			<h2 class="postTitle"><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+			<h1 class="postTitle"><?php the_title(); ?></h1>
 
 			<?php the_content(''); ?>
 			<?php if(function_exists('wp_print')) { print_link(); } ?>

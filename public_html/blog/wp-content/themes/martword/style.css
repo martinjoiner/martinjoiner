@@ -60,18 +60,20 @@ h1.postTitle,
 h2.postTitle {
 	text-transform: uppercase;
 	letter-spacing: -1px;
-	
+	text-align: center;
+	margin: 0 0 1em 0;
+	font-size: 3em;
 	padding-bottom: 3px;
 	font-weight: 700;
-	margin: 0;
 }
 
 .postList h2.postTitle {
+	text-align: left;
 	font-size: 2em;
+	margin: 0;
 }
 
 .singlePost h1.postTitle {
-	text-align: center;
 	font-size: 3em;
 	margin-bottom: 2em;
 }
@@ -345,6 +347,7 @@ img.size-full{
 .postContent {
 	background-color: white;
 	margin-bottom: 2em;
+	padding: 3em;
 	box-shadow: 0 20px 10px -10px rgba(0,0,0,0.5);
 }
 
