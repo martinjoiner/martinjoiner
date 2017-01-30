@@ -36,7 +36,7 @@ body{
 	background-color: #2C2C29;
 	
 	background-image: linear-gradient( to bottom, #000 0px, #000 100px, #2C2C29 500px);
-	font-family: Tahoma;
+	font-family: sans-serif;
 	font-size: 14px;
 	color: #2C2C29;
 	padding: 0 2em;
@@ -46,7 +46,7 @@ p{font-size:1.2em;padding:2px;margin:1px 0 15px;}
 
 a{color:#807D7A;}
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -397,11 +397,13 @@ img.wp-smiley{border:0px;vertical-align:middle;}
 
 
 
+
+
 /* CONTENT */
 
 #content ul,
 #content ol{
-	margin:15px 30px;
+	margin: 15px 30px;
 }
 
 #content ul li{
@@ -426,9 +428,9 @@ img.wp-smiley{border:0px;vertical-align:middle;}
 
 .nr_comm a{color:#FFF;text-decoration:none;}
 
-.cat_tags{
-	margin-top:10px;
-	padding:8px 0 5px 10px;
+.postList .excerpt,
+.cat_tags {
+	margin-bottom: 1em;
 }
 
 .cat_tags_close{max-height:3px;height:3px;margin-bottom:20px;}

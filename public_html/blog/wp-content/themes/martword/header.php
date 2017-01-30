@@ -11,9 +11,9 @@
 	<meta name="msapplication-TitleColor" content="#002F4C">
 	<meta name="theme-color" content="#002F4C">
 	
-	<!-- injector:css -->
-	<link rel="stylesheet" href="/blog/wp-content/themes/martword/style.css">
-	<!-- endinjector -->
+	<!-- inject:css -->
+	<link rel="stylesheet" href="/blog/wp-content/themes/martword/css/style-189da05185.min.css">
+	<!-- endinject -->
 
 	<link rel="shortcut icon" href="<?php bloginfo('url'); ?>/favicon.ico" />
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
