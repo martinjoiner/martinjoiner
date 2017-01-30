@@ -8,7 +8,7 @@
 	<h3>Familiar Technologies</h3>
 
 	<p>
-		<strong>Server-side:</strong> MySQL, PHP, Laravel, Drupal, Symfony, WordPress, NodeJS, Bash, Python.
+		<strong>Server-side:</strong> MySQL, PHP, Laravel, Symfony, WordPress, NodeJS, Bash, Python.
 		<strong>Client-side:</strong> HTML, SVG, JavaScript, jQuery, AngularJS, CSS, LESS, SASS, WebGL (Three.js). 
 		<strong>Testing:</strong> <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>. 
 		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Elixir. 
@@ -64,9 +64,8 @@
 
 		<h3>Open Mic Finder <span class="dRange">2010+</span></h3>
 
-		<p>I launched <abbr title="Open Mic Finder">OMF</abbr> in 2010 after identifying a need for accurate information about Open Mic events in the UK. 
-		With a relentlessly humble attitude to honouring accuracy it gained the trust of 23,000+ active monthly users. It's a solo project so everything you see 
-		on the site was created by me. It hosts user-generated content so I have had to come up with solutions to tackle problems with data quality, data rot, 
+		<p>PHP site with public login and private CMS. 23,000+ active monthly users. Everything you see on the site was designed and coded by me. 
+		It hosts user-generated content so I have had to come up with solutions to tackle problems with data quality, data rot, 
 		spam, duplication and abuse.</p>
 
 		<ul class="outLink">
@@ -76,12 +75,12 @@
 
 
 	<div class="projectWrap">
-		<h3>BookFetch <span class="dRange">2016</span></h3>
+		<h3>BookFetch <span class="dRange">2017</span></h3>
 
-		<p>A multi-device platform for a charitable startup. Uses Python, Raspberry Pi, Drupal 8, custom REST API and public APIs. Special emphasis on absolute ease of use at speed. The whole interface was a single beep noise.</p>
+		<p>A platform for a charitable startup. OAuth Authenticated RESTful API (Laravel 5 running on PHP 7) allows mutliple internet-enabled stock scanners (Python scripts running on Raspberry Pi) to log books. A cron task queries a public API to process the scanned ISBN numbers. Special emphasis on absolute ease of use at speed.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://bookfetch.co.uk/">bookfetch.co.uk</a> (still under development)</li>
+			<li>&ndash; <a href="http://bookfetch.co.uk/">bookfetch.co.uk</a></li>
 		</ul>
 	</div>
 
@@ -90,7 +89,7 @@
 	<div class="projectWrap">
 		<h3>Poetry Pin <span class="dRange">2016</span></h3>
 
-		<p>GPS sensitive mobile web app that allows public to submit poetry along defined walking routes. Assumption of trust with public flagging and on-the-fly administration.</p>
+		<p>Mobile web app (JavaScript) that uses device GPS sensor to enable users to submit poetry along defined walking routes. Profanity checker filters obviously offensive content. Tests written in PHPUnit. CMS and RESTful API in PHP.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://poetrypin.info/">poetrypin.info</a></li>
@@ -105,7 +104,7 @@
 		<p>Previously built with outdated and messy PHP the system had begun to run slow and frustrate users. 
 		I performed delicate code surgery to properly normalise the 
 		MySQL database (58+ million rows) and make the reports generate in seconds (previously minutes). I also 
-		modified the UI to improve user feedback and encourage quality input. </p>
+		modified the UI to encourage users to input high-quality standardised data by giving them tips and feedback.</p>
 	</div>
 
 
