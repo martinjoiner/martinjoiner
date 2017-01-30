@@ -8,15 +8,15 @@
 	<h3>Familiar Technologies</h3>
 
 	<p>
-		<strong>Server-side:</strong> MySQL, PHP, Laravel, Symfony, WordPress, NodeJS, Bash, Python.
-		<strong>Client-side:</strong> HTML, SVG, JavaScript, jQuery, AngularJS, CSS, LESS, SASS, WebGL (Three.js). 
+		<strong>Server-side:</strong> MySQL, <span class="tag tag-php" data-tag-family="tag-php">PHP</span>, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>, Symfony, WordPress, NodeJS, Bash, Python.
+		<strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, AngularJS, CSS, LESS, SASS, WebGL (Three.js). 
 		<strong>Testing:</strong> <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>. 
-		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Elixir. 
+		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Jekyll, Elixir. 
 		<strong>Version control:</strong> GIT, SVN. 
 		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MeetUp, MailChimp, Transport, ISBNdb.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
 		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X), <abbr title="Secure Sockets Layer">SSL</abbr> HTTPS, <a href="https://www.vagrantup.com/">Vagrant</a>
-		<strong>Other:</strong> Arduino, Raspberry Pi, PhoneGap. Open source contributor. 
+		<strong>Other:</strong> Arduino, <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>, PhoneGap. Open source contributor. 
 	</p>
 
 	<h3>Visual</h3>
@@ -64,7 +64,7 @@
 
 		<h3>Open Mic Finder <span class="dRange">2010+</span></h3>
 
-		<p>PHP site with public login and private CMS. 23,000+ active monthly users. Everything you see on the site was designed and coded by me. 
+		<p><span class="tag tag-php" data-tag-family="tag-php">PHP</span> site with public login and private CMS. 23,000+ active monthly users. Everything you see on the site was designed and coded by me. 
 		It hosts user-generated content so I have had to come up with solutions to tackle problems with data quality, data rot, 
 		spam, duplication and abuse.</p>
 
@@ -77,7 +77,7 @@
 	<div class="projectWrap">
 		<h3>BookFetch <span class="dRange">2017</span></h3>
 
-		<p>A platform for a charitable startup. OAuth Authenticated RESTful API (Laravel 5 running on PHP 7) allows mutliple internet-enabled stock scanners (Python scripts running on Raspberry Pi) to log books. A cron task queries a public API to process the scanned ISBN numbers. Special emphasis on absolute ease of use at speed.</p>
+		<p>A platform for a charitable startup. OAuth Authenticated RESTful API (<span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel 5</span> running on <span class="tag tag-php" data-tag-family="tag-php">PHP 7</span>) allows mutliple internet-enabled stock scanners (Python scripts running on <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>) to log books. A cron task queries a public API to process the scanned ISBN numbers. Special emphasis on absolute ease of use at speed.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://bookfetch.co.uk/">bookfetch.co.uk</a></li>
@@ -89,7 +89,7 @@
 	<div class="projectWrap">
 		<h3>Poetry Pin <span class="dRange">2016</span></h3>
 
-		<p>Mobile web app (JavaScript) that uses device GPS sensor to enable users to submit poetry along defined walking routes. Profanity checker filters obviously offensive content. Tests written in PHPUnit. CMS and RESTful API in PHP.</p>
+		<p>Mobile web app (<span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>) that uses device GPS sensor to enable users to submit poetry along defined walking routes. Profanity checker filters obviously offensive content. Tests written in PHPUnit. CMS and RESTful API in <span class="tag tag-php" data-tag-family="tag-php">PHP</span>.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://poetrypin.info/">poetrypin.info</a></li>
@@ -101,7 +101,7 @@
 	<div class="projectWrap">
 		<h3>Internal planning system for international catering business <span class="dRange">2016</span></h3>
 
-		<p>Previously built with outdated and messy PHP the system had begun to run slow and frustrate users. 
+		<p>Previously built with outdated and messy <span class="tag tag-php" data-tag-family="tag-php">PHP</span> the system had begun to run slow and frustrate users. 
 		I performed delicate code surgery to properly normalise the 
 		MySQL database (58+ million rows) and make the reports generate in seconds (previously minutes). I also 
 		modified the UI to encourage users to input high-quality standardised data by giving them tips and feedback.</p>
@@ -114,7 +114,7 @@
 
 		<p class="role">Via my role as Senior front-end developer at <a href="http://www.somoglobal.com/">Somo Global</a> (2015)</p>
 
-		<p>I was responsible for JavaScript, CSS and some PHP (Symfony framework) on a CSR charity project. It involved complicated data visualisation in the form of charts and interactive maps.</p>
+		<p>I was responsible for <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, CSS and some <span class="tag tag-php" data-tag-family="tag-php">PHP</span> (Symfony framework) on a CSR charity project. It involved complicated data visualisation in the form of charts and interactive maps.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="https://www.horizondata.net/">www.horizondata.net</a></li>
@@ -147,7 +147,7 @@
 
 		<?=$carmenData?>
 
-		<p>Rebuild and rebrand post acquisition. Interaction and <abbr title="User Experience">UX</abbr> design. Logo design, UI design, JavaScript, CSS, Coldfusion 9.</p>
+		<p>Rebuild and rebrand post acquisition. Interaction and <abbr title="User Experience">UX</abbr> design. Logo design, UI design, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, CSS, Coldfusion 9.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://www.comparecontracthire.com/">www.comparecontracthire.com</a></li>
@@ -176,7 +176,7 @@
 		<h3>Storywalks <span class="dRange">2012</span></h3>
 
 		<p>Award-winning literacy app for KS2+3 in schools. GPS triggered interactive story. Written mainly in 
-		JavaScript with PHP and MySQL back-end. Unique challenge of UX and UI design for children.</p>
+		<span class="tag tag-js" data-tag-family="tag-js">JavaScript</span> with <span class="tag tag-php" data-tag-family="tag-php">PHP</span> and MySQL back-end. Unique challenge of UX and UI design for children.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://storywalks.info">storywalks.info</a></li>
@@ -196,7 +196,7 @@
 
 	<h3>Video &amp; Web designer at Highbridge Caravans <span class="dRange">2006 &ndash; 2007</span></h3>
 
-	<p>Produced online video tours of luxury vehicles. Overhauled the design of the company website. Adobe Flash animation and <abbr title="Search engine optimisation">SEO</abbr>. Learned PHP for the role.</p>
+	<p>Produced online video tours of luxury vehicles. Overhauled the design of the company website. Adobe Flash animation and <abbr title="Search engine optimisation">SEO</abbr>. Learned <span class="tag tag-php" data-tag-family="tag-php">PHP</span> for the role.</p>
 
 
 	<h2>Formal Education</h2>
@@ -207,4 +207,37 @@
 
 </div>
 
+<script>
 
+	// Initialise
+	(function(){
+		var tags = document.getElementsByClassName('tag');
+
+		for( var i = 0, iLimit = tags.length; i < iLimit; i++ ){
+			tag = tags[i];
+			tag.addEventListener( 'mouseover', function(){ 
+				highLightTagFamily( this.dataset.tagFamily ); 
+			});
+			tag.addEventListener( 'mouseout', function(){ 
+				unhighLightTagFamily( this.dataset.tagFamily ); 
+			});
+		}
+	})();
+
+	function highLightTagFamily( key ){
+		var tags = document.getElementsByClassName(key);
+		for( var i = 0, iLimit = tags.length; i < iLimit; i++ ){
+			tag = tags[i];
+			tag.className += ' tag-highlighted';
+		}
+	}
+
+	function unhighLightTagFamily( key ){
+		var tags = document.getElementsByClassName(key);
+		for( var i = 0, iLimit = tags.length; i < iLimit; i++ ){
+			tag = tags[i];
+			tag.className = tag.className.replace( ' tag-highlighted', '' );
+		}
+	}
+
+</script>

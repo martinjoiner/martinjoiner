@@ -306,6 +306,13 @@ img.homeBlink {
 	width: 100%;
 }
 
+.tag.tag-highlighted {
+	cursor: context-menu;
+	border-top: 1px solid #9298b5;
+	border-bottom: 1px solid #9298b5;
+	background-color: #cbdaf1;
+}
+
 /* ------- Contact Details -------- */
 
 .cvPrimaryCol .contactDetails {
