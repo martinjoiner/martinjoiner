@@ -4,19 +4,17 @@
 
 <?php if ( function_exists('yoast_breadcrumb') ) { yoast_breadcrumb('<p id="breadcrumbs">','</p>'); } ?>
 
-<?php if( single_cat_title('', false) ) : ?>
+<?php if( is_category('', false) ) : ?>
 	<h1>Category: <?php single_cat_title(); ?></h1>
+<?php elseif ( is_tag('', false) ) : ?>
+	<h1>Tagged: <?php single_tag_title(); ?></h1>
+<?php elseif ( is_search()  ) : ?>
+	<h1>Search: &quot;<?php echo esc_html( get_search_query( false ) ); ?>&quot;</h1>
 <?php endif; ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-	<div <?php 
-		if (function_exists("post_class")) {
-			post_class(); 
-		} else {
-			print 'class="post"'; 
-		}
-		?> id="post-<?php the_ID(); ?>">
+	<div <?php post_class( ['type-index'] ); ?> id="post-<?php the_ID(); ?>">
 		
 		<?php if ($lw_post_author == "Main page" || $lw_post_author == "Both") : ?>
 		<div class="about_author clear">
@@ -26,8 +24,7 @@
 		</div>
 		<?php endif; ?>
 
-
-		<div class="postContent postList">
+		<div class="postContent">
 
 			<?php lw_simple_date(); ?>
 	
@@ -45,30 +42,30 @@
 				<?php print trim( get_the_excerpt() ); ?>&hellip; <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>">Read more &raquo;</a>
 			</div>
 
-			<?php if(function_exists('wp_print')) { print_link(); } ?>
-			<?php wp_link_pages('before=<div class="nav_link">'.__('PAGES','lightword').': &after=</div>&next_or_number=number&pagelink=<span class="page_number">%</span>'); ?>
+		</div><!-- /.postContent -->
 
-			<div class="cat_tags clear">
-				<span class="category">
-					<?php _e('Filed under:','lightword'); 
-					echo " ";
-					the_category(', ');
-					?>
-				</span>
-				
-				<?php
-				if( get_the_tags() ){ 
-					echo '<span class="tags">';
-					_e('Tagged as:','lightword'); 
-					echo " "; 
-					the_tags('','',''); 
-					echo '</span>';
-				} 
+		<?php if(function_exists('wp_print')) { print_link(); } ?>
+		<?php wp_link_pages('before=<div class="nav_link">'.__('PAGES','lightword').': &after=</div>&next_or_number=number&pagelink=<span class="page_number">%</span>'); ?>
+
+		<div class="cat_tags clear">
+			<span class="category">
+				<?php _e('Filed under:','lightword'); 
+				echo " ";
+				the_category(', ');
 				?>
+			</span>
+			
+			<?php
+			if( get_the_tags() ){ 
+				echo '<span class="tags">';
+				_e('Tagged as:','lightword'); 
+				echo " "; 
+				the_tags('','',''); 
+				echo '</span>';
+			} 
+			?>
 
-				<div class="clear"></div>
-			</div>
-
+			<div class="clear"></div>
 		</div>
 
 		<?php comments_template(); ?>
@@ -77,8 +74,12 @@
 
 <?php endwhile; else: ?>
 
-	<h2><?php _e('Not Found','lightword'); ?></h2>
-	<p><?php  _e("Sorry, but you are looking for something that isn't here.","lightword"); ?></p>
+	<div class="type-page">
+
+		<h1><?php _e('Not Found','lightword'); ?></h1>
+		<p><?php  _e("Sorry, but you are looking for something that isn't here.","lightword"); ?></p>
+
+	</div>
 
 <?php endif; ?>
 

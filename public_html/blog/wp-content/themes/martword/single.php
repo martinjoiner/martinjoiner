@@ -5,8 +5,9 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-	<div <?php if (function_exists("post_class")) post_class(); else print 'class="post"'; ?> id="post-<?php the_ID(); ?>">
-		<div class="postContent singlePost">
+	<div <?php post_class( ['type-single'] ) ?> id="post-<?php the_ID(); ?>">
+	
+		<div class="postContent">
 
 			<?php lw_simple_date(); ?>
 
@@ -24,47 +25,47 @@
 				</div>
 			<?php endif; ?>
 
-			<?php if ($lw_post_author == "Single page" || $lw_post_author == "Both" && is_attachment() != TRUE) : ?>
-				<div class="about_author clear">
-					<span class="alignleft"><?php echo get_avatar( get_the_author_id(), '28' );   ?></span>
-					<div class="alignleft" style="width:470px;">
-						<h4><?php _e('About','lightword'); ?> <a href="<?php the_author_url(); ?> "><?php the_author(); ?></a></h4>
-						<?php the_author_description(); if(!get_the_author_description()) _e('No description. Please complete your profile.','lightword'); ?></div>
-						<div class="clear"></div>
-				</div>
-			<?php endif; ?>
-
-			<div class="cat_tags clear">
-				<span class="category">
-					<?php _e('Filed under:','lightword'); 
-					echo " ";
-					the_category(', ');
-					?>
-				</span>
-				
-				<?php
-				if( get_the_tags() ){ 
-					echo '<span class="tags">';
-					_e('Tagged as:','lightword'); 
-					echo " "; 
-					the_tags('','',''); 
-					echo '</span>';
-				} 
-				?>
-				<div class="clear"></div>
-			</div>
-
-			<div class="cat_tags_close"></div>
-
-			<?php comments_template(); ?>
-
-			<div class="next_previous_links">
-				<span class="alignleft"><?php next_post('&laquo; %','', 'yes'); ?></span>
-				<span class="alignright"><?php previous_post('% &raquo;','', 'yes'); ?></span>
-				<div class="clear"></div>
-			</div>
-
 		</div><!-- /.postContent -->
+
+		<?php if ($lw_post_author == "Single page" || $lw_post_author == "Both" && is_attachment() != TRUE) : ?>
+			<div class="about_author clear">
+				<span class="alignleft"><?php echo get_avatar( get_the_author_id(), '28' );   ?></span>
+				<div class="alignleft" style="width:470px;">
+					<h4><?php _e('About','lightword'); ?> <a href="<?php the_author_url(); ?> "><?php the_author(); ?></a></h4>
+					<?php the_author_description(); if(!get_the_author_description()) _e('No description. Please complete your profile.','lightword'); ?></div>
+					<div class="clear"></div>
+			</div>
+		<?php endif; ?>
+
+		<div class="cat_tags clear">
+			<span class="category">
+				<?php _e('Filed under:','lightword'); 
+				echo " ";
+				the_category(', ');
+				?>
+			</span>
+			
+			<?php
+			if( get_the_tags() ){ 
+				echo '<span class="tags">';
+				_e('Tagged as:','lightword'); 
+				echo " "; 
+				the_tags('','',''); 
+				echo '</span>';
+			} 
+			?>
+			<div class="clear"></div>
+		</div>
+
+		<div class="cat_tags_close"></div>
+
+		<?php comments_template(); ?>
+
+		<div class="next_previous_links">
+			<span class="alignleft"><?php next_post('&laquo; %','', 'yes'); ?></span>
+			<span class="alignright"><?php previous_post('% &raquo;','', 'yes'); ?></span>
+			<div class="clear"></div>
+		</div>
 
 	</div><!-- /#post-xxx -->
 

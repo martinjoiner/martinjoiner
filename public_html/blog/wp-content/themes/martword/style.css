@@ -40,7 +40,9 @@ body{
 	padding: 0 2em;
 }
 
-p{font-size:1.2em;padding:2px;margin:1px 0 15px;}
+p { 
+	margin: 1px 0 15px;
+}
 
 a { color:#807D7A; }
 
@@ -51,10 +53,12 @@ h1, h2, h3, h4 {
 .simple_date {
 	color: #999;
 	margin-bottom: 5px;
+	font-size: 0.9em;
 }
 
-.singlePost .simple_date {
+.type-single .simple_date {
 	text-align: center;
+	margin-bottom: 1.2em;
 }
 
 h1.postTitle,
@@ -68,14 +72,14 @@ h2.postTitle {
 	font-weight: 700;
 }
 
-.postList h2.postTitle {
+.type-index h2.postTitle {
 	text-align: left;
 	font-size: 2em;
 	margin: 0 0 5px 0;
 }
 
-.singlePost h1.postTitle {
-	font-size: 3em;
+.type-single h1.postTitle {
+	font-size: 2.5em;
 	margin-bottom: 2em;
 }
 
@@ -345,29 +349,44 @@ img.size-full{
 	height: auto;
 }
 
-.postContent {
+.type-index,
+.type-single,
+.type-page {
 	background-color: white;
 	margin-bottom: 2em;
 	padding: 3em;
 	box-shadow: 0 20px 10px -10px rgba(0,0,0,0.5);
 }
 
-.postContent.postList {
+.type-index {
 	line-height: 1.5;
 	padding: 3em 6em 2em 6em;
 }
 
-.postContent.singlePost {
+.type-single,
+.type-page {
 	line-height: 1.7;
-	margin-bottom: 10em;
-	padding: 8em 8em 4em 8em;
+	padding: 8em 8em 8em 8em;
 }
 
-.excerpt {
+.type-index .postContent {
+	
+}
+
+.type-single .postContent,
+.type-page .postContent {
+	font-size: 1.2em;
+}
+
+.type-single .postContent {
+	margin-bottom: 4em;
+}
+
+.type-index .excerpt {
 	margin-bottom: 1em;
 }
 
-.postList .wp-post-image {
+.type-index .wp-post-image {
 	float: right;
 	width: 160px;
 	height: 160px;
@@ -419,12 +438,10 @@ img.wp-smiley{border:0px;vertical-align:middle;}
 	margin: 15px 30px;
 }
 
-#content ul li{
+#content ul li {
 	list-style: circle;
-	margin-bottom: 4px;
+	margin-bottom: 1em;
 }
-
-.hentry{height:auto!important;margin-bottom:1em;}
 
 .sticky h2 a{color:red;}
 
@@ -711,17 +728,17 @@ ul.hide{list-style-type:none;display:none;}
 		font-size: 2.7em;
 	}
 
-	.postContent.postList,
-	.postContent.singlePost {
+	.post.type-index,
+	.post.type-single {
 		padding: 2em 4em 1em 4em;
 	}
 
-	.postList h2.postTitle {
+	.type-index h2.postTitle {
 		font-size: 1.8em;
 	}
 
-	.singlePost h1.postTitle {
-		font-size: 1.8em;
+	.type-singe h1.postTitle {
+		font-size: 1.6em;
 	}
 
 	div.cat_tags > span.continue{
@@ -743,16 +760,29 @@ ul.hide{list-style-type:none;display:none;}
 		letter-spacing: -1px;
 	}
 
-	.postContent.postList,
-	.postContent.singlePost {
+	.post.type-index,
+	.post.type-single {
 		padding: 2em 2em 1em 2em;
 	}
-
-	.postList h2.postTitle {
-		font-size: 1.6em;
+	
+	.type-index .simple_date {
+		text-align: center;
 	}
 
-	.singlePost h1.postTitle{
+	.type-index h2.postTitle {
+		font-size: 1.6em;
+		text-align: center;
+	}
+
+	.type-index .wp-post-image {
+		float: none;
+		display: block;
+		width: 120px;
+		height: 120px;
+		margin: 0 auto 1em auto;
+	}
+
+	.type-single h1.postTitle{
 		font-size: 1.6em;
 	}
 
