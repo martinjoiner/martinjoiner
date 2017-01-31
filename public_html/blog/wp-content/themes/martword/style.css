@@ -24,8 +24,6 @@ tbody,tfoot,thead,tr,th,td{
 
 /* BASIC */
 
-*:focus{outline:none;}
-
 .clear{clear:both;}
 
 html {
@@ -44,7 +42,7 @@ body{
 
 p{font-size:1.2em;padding:2px;margin:1px 0 15px;}
 
-a{color:#807D7A;}
+a { color:#807D7A; }
 
 h1, h2, h3, h4 {
 	font-family: 'Montserrat', sans-serif;
@@ -52,12 +50,11 @@ h1, h2, h3, h4 {
 
 .simple_date {
 	color: #999;
-	padding: 8px 0;
+	margin-bottom: 5px;
 }
 
 .singlePost .simple_date {
 	text-align: center;
-	margin-bottom: 1em;
 }
 
 h1.postTitle,
@@ -74,7 +71,7 @@ h2.postTitle {
 .postList h2.postTitle {
 	text-align: left;
 	font-size: 2em;
-	margin: 0;
+	margin: 0 0 5px 0;
 }
 
 .singlePost h1.postTitle {
@@ -357,13 +354,29 @@ img.size-full{
 
 .postContent.postList {
 	line-height: 1.5;
-	padding: 3em 6em 3em 6em;
+	padding: 3em 6em 2em 6em;
 }
 
 .postContent.singlePost {
 	line-height: 1.7;
 	margin-bottom: 10em;
 	padding: 8em 8em 4em 8em;
+}
+
+.excerpt {
+	margin-bottom: 1em;
+}
+
+.postList .wp-post-image {
+	float: right;
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 1em;
+	border: 1px solid #e0e4e8;
+}
+
+.cat_tags {
+	margin-bottom: 1em;
 }
 
 abbr, acronym, span.abbr{cursor:help;border-bottom:1px dotted #000;}
@@ -428,11 +441,6 @@ img.wp-smiley{border:0px;vertical-align:middle;}
 
 .nr_comm a{color:#FFF;text-decoration:none;}
 
-.postList .excerpt,
-.cat_tags {
-	margin-bottom: 1em;
-}
-
 .cat_tags_close{max-height:3px;height:3px;margin-bottom:20px;}
 
 * html .cat_tags_close{margin-top:-8px;}
@@ -486,8 +494,20 @@ img.wp-smiley{border:0px;vertical-align:middle;}
 
 #content textarea{border:1px solid #E5E2E0;width:97.5%;height:100px;padding:5px;font-family: Verdana;}
 
-#content input#submit{
-	width: 88px;height: 25px;border: 0px;background:#2C2C29 url(images/submit_btn.png) no-repeat;font: bold 12px Helvetica,Georgia,serif;color:#FFF;text-align:center;cursor:pointer;}
+#content input#submit {
+	width: 88px;
+	padding: 5px;
+	line-height: 1.7;
+	border: 0;
+	background: #2C2C29;
+	color: #FFF;
+	text-align: center;
+	cursor: pointer;
+}
+
+#content input#submit:hover {
+	background: #44443f;
+}
 
 #comentarii ol.commentlist{width:100%;margin:0;padding:0;font-size:11px;}
 
@@ -531,7 +551,10 @@ li.comment-author-admin{border:1px solid #BBBBBB !important; }
 
 #tabsContainer{margin-top: 8em;}
 
-#tabsContainer a{text-decoration:none;}
+#tabsContainer a {text-decoration:none;}
+#tabsContainer a:hover {
+	text-decoration:underline;
+}
 
 .trackbacks{background-color:#EEEEEE;margin-bottom:5px;padding:10px;border-bottom:1px solid #CCC;}
 
@@ -543,7 +566,22 @@ li.comment-author-admin{border:1px solid #BBBBBB !important; }
 
 .clear_tab{clear:both;border-bottom:3px solid #2C2C29;margin-top:-21px;}
 
-.tabs {display: block;float: left;height: 30px;padding: 0 0 0 20px;line-height: 29px;position: relative;top: 1px;color: #787878;text-decoration: none;margin: 0 0px 0 0;}
+.tabs {
+	display: block;
+	float: left;
+	height: 30px;
+	padding: 0 0 0 20px;
+	line-height: 29px;
+	position: relative;
+	top: 1px;
+	color: #787878;
+	text-decoration: none;
+	margin: 0 0 0 0;
+}
+
+.tabs:not(.selected):hover span{
+	text-decoration: underline;
+}
 
 .subscribe_comments {display: block;float: right;height: 30px;padding: 0 0 0 20px;line-height: 29px;position: relative;top: 1px;color: #787878;text-decoration: none;margin: 0 5px 0 0;}
 
@@ -643,7 +681,7 @@ ul.hide{list-style-type:none;display:none;}
 
 /* OTHERS */
 
-.promote{border:1px solid #B6B6B5;padding:10px 10px 5px 10px;margin-top:1em;background:#EDEDED url(images/rss.png) 90% -35px no-repeat;}
+.promote{border:1px solid #B6B6B5;padding:10px 10px 5px 10px;margin-top:1em;background:#EDEDED url(../images/rss.png) 90% -35px no-repeat;}
 
 .promote h3{margin-left:3px; }
 
@@ -675,7 +713,7 @@ ul.hide{list-style-type:none;display:none;}
 
 	.postContent.postList,
 	.postContent.singlePost {
-		padding: 2em 4em 2em 4em;
+		padding: 2em 4em 1em 4em;
 	}
 
 	.postList h2.postTitle {
@@ -707,7 +745,7 @@ ul.hide{list-style-type:none;display:none;}
 
 	.postContent.postList,
 	.postContent.singlePost {
-		padding: 2em 2em 2em 2em;
+		padding: 2em 2em 1em 2em;
 	}
 
 	.postList h2.postTitle {

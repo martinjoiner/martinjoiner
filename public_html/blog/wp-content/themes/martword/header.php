@@ -12,7 +12,7 @@
 	<meta name="theme-color" content="#002F4C">
 	
 	<!-- inject:css -->
-	<link rel="stylesheet" href="/blog/wp-content/themes/martword/css/style-d7021c6750.min.css">
+	<link rel="stylesheet" href="/blog/wp-content/themes/martword/css/style-5948195414.min.css">
 	<!-- endinject -->
 
 	<link rel="shortcut icon" href="<?php bloginfo('url'); ?>/favicon.ico" />
@@ -43,28 +43,25 @@
 		}
 		?><meta property="og:description" content="<?=$strContent?>"/>
 		<?php 
-		if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) { 
-			$thumbTag = get_the_post_thumbnail();
-			$thumbTag = preg_replace( '/<img/', '<meta property="og:image"', $thumbTag ); 
-			$thumbTag = preg_replace( '/ src=/', ' content=', $thumbTag ); 
-			$thumbTag = preg_replace( '/ class="[^"]*"/', '', $thumbTag ); 
-			$thumbTag = preg_replace( '/ alt="[^"]*"/', '', $thumbTag ); 
-			$thumbTag = preg_replace( '/ width="[^"]*"/', '', $thumbTag ); 
-			$thumbTag = preg_replace( '/ height="[^"]*"/', '', $thumbTag ); 
-			print $thumbTag . "\n";
-
-			$twitterImgTag = preg_replace( '/property="og:image"/', 'name="twitter:image:src"', $thumbTag ); 
-			print $twitterImgTag . "\n";
+		
+		if ( has_post_thumbnail() ) { 
+			?>
+			<meta property="og:image" content="<?php the_post_thumbnail_url('open-graph-image'); ?>">
+			<meta name="twitter:image" content="<?php the_post_thumbnail_url('open-graph-image'); ?>">
+			<?php
 		} 
 		?>
 		<meta property="fb:admins" content="511938722" />
 
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="<?=trim(wp_title('', false))?>">
+		<meta name="twitter:description" content="<?php print trim( get_the_excerpt() ); ?>">
 		<?php
 	} 
 	?>
-
-	<meta name="twitter:site" content="@martinjoiner">
- 	<meta name="twitter:creator" content="@martinjoiner">
+	
+	<meta name="twitter:site" content="@MartinJoiner">
+ 	<meta name="twitter:creator" content="@MartinJoiner">
 
 	<?php wp_head(); ?>
 
@@ -78,7 +75,16 @@
 		
 		<nav>
 			<ul class="lstNav">
-				<?=lw_homebtn(__('Home','lightword'))?>	
+				<?php
+				if( is_front_page() ){
+		            $selected="s"; 
+		        }
+		        ?>
+		        <li>
+		            <a class="<?php echo $selected; ?>" title="Home" href="<?php echo get_option('home'); ?>">
+		                Home
+		            </a>
+		        </li>	
 				<?=wp_list_categories(array(  'odererby' => 'count',
 											  'order' => 'DESC',
 											  'title_li' => null

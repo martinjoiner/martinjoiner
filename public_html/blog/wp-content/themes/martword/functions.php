@@ -79,12 +79,6 @@ $options = array (
             "type" => "exclude_categories",
             "std" => ""),
 
-    array(  "name" => __('Remove home button','lightword'),
-			"desc" => __('Remove home button from front menu','lightword'),
-            "id" => $shortname."_remove_homebtn",
-            "type" => "checkbox",
-            "std" => "false"),
-
     array(  "name" => __('Remove search box','lightword'),
 			"desc" => __('Remove search box and expand space for front menu','lightword'),
             "id" => $shortname."_remove_searchbox",
@@ -162,7 +156,7 @@ header("Location: themes.php?page=functions.php&reset=true");
 die;
 }
 }
-add_theme_page("LightWord Settings", __('LightWord Settings','lightword'), 'edit_themes', basename(__FILE__), 'lightword_admin_page');
+add_theme_page("MartWord Settings", __('MartWord Settings','lightword'), 'edit_themes', basename(__FILE__), 'lightword_admin_page');
 }
 
 // ADMIN PAGE LAYOUT
@@ -174,19 +168,9 @@ if ( $_REQUEST['reset'] ) { echo '<div id="message" class="updated fade"><p><str
 ?>
 <div class="wrap">
 
-<h2><?php _e('LightWord Settings','lightword') ?></h2>
+<h2><?php _e('MartWord Settings','lightword') ?></h2>
 
 <div id="poststuff" class="metabox-holder">
-<div class="stuffbox">
-<h3><label for="link_url"><?php _e('Support the developer','lightword'); ?></label></h3>
-<div class="inside">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="5545477">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div></div>
 
 <div class="stuffbox">
 <h3><label for="link_url"><?php _e('General settings','lightword'); ?></label></h3>
@@ -473,24 +457,6 @@ $cufon_footer_script = "\n<script type=\"text/javascript\">/* <![CDATA[ */ Cufon
 if($cufon_enabled == 1) echo $cufon_footer_script;
 }
 
-// HOME BUTTON
-
-function lw_homebtn($homebtn_value){
-    global $lw_remove_homebtn; 
-    if($lw_remove_homebtn == "false") { 
-        if( is_front_page() ){
-            $selected="s"; 
-        }
-        ?>
-        <li>
-            <a class="<?php echo $selected; ?>" title="<?php echo $homebtn_value; ?>" href="<?php echo get_option('home'); ?>">
-                <?php echo $homebtn_value ?>
-            </a>
-        </li>
-        <?php
-        
-    }
-}
 
 // CANONICAL COMMENTS
 
@@ -650,7 +616,7 @@ function my_custom_dashboard_widgets() {
 }
 
 function custom_dashboard_help() {
-   echo '<p>Thanks for using LightWord theme.<br/><a class="preview button" href="'.get_bloginfo('url').'/wp-admin/themes.php?page=functions.php" id="post-preview">'.__('LightWord Settings','lightword').'</a><br/></p>';
+   echo '<p>Thanks for using LightWord theme.<br/><a class="preview button" href="'.get_bloginfo('url').'/wp-admin/themes.php?page=functions.php" id="post-preview">'.__('MartWord Settings','lightword').'</a><br/></p>';
 }
 
 // SIDEBARD WIDGETS
@@ -661,6 +627,11 @@ if ( function_exists('register_sidebar') && $lw_sidebar_settings == "Two sidebar
 // WORDPRESS 2.9 FEATURES
 
 if ( function_exists( 'add_theme_support' ) ) add_theme_support( 'post-thumbnails' );
+
+// FEATURED IMAGE SIZES
+
+set_post_thumbnail_size( 160, 160, array( 'center', 'center') );
+add_image_size( 'open-graph-image', 400, 400 );
 
 // ENABLE FUNCTIONS
 

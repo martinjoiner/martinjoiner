@@ -30,9 +30,17 @@
 		<div class="postContent postList">
 
 			<?php lw_simple_date(); ?>
+	
+			<?php 
+			if ( has_post_thumbnail() ) { 
+				?><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php
+				the_post_thumbnail();
+				?></a><?php
+			} 
+			?>
 
 			<h2 class="postTitle"><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-			
+		
 			<div class="excerpt">
 				<?php print trim( get_the_excerpt() ); ?>&hellip; <a title="<?php the_title(); ?>" href="<?php the_permalink() ?>">Read more &raquo;</a>
 			</div>
