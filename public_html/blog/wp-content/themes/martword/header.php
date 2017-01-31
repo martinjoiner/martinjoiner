@@ -55,7 +55,7 @@
 
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:title" content="<?=trim(wp_title('', false))?>">
-		<meta name="twitter:description" content="<?php print trim( get_the_excerpt() ); ?>">
+		<meta name="twitter:description" content="<?=$strContent?>">
 		<?php
 	} 
 	?>
