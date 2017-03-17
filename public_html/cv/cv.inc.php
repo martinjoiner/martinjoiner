@@ -8,16 +8,19 @@
 	<h3>Familiar Technologies</h3>
 
 	<p>
-		<strong>Server-side:</strong> MySQL, <span class="tag tag-php" data-tag-family="tag-php">PHP</span>, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>, Symfony, WordPress, NodeJS, Bash, Python.
+		<strong>Server-side:</strong> MySQL, <span class="tag tag-php" data-tag-family="tag-php">PHP</span>, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>, Symfony, WordPress, <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span>, NodeJS, Bash, Python.
 		<strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, AngularJS, CSS, LESS, SASS, WebGL (Three.js). 
 		<strong>Testing:</strong> <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>. 
 		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Jekyll, Elixir. 
+		<strong>Deploy tools:</strong> Capistrano, Jenkins. 
 		<strong>Version control:</strong> GIT, SVN. 
 		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MeetUp, MailChimp, Transport, ISBNdb.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
 		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X), <abbr title="Secure Sockets Layer">SSL</abbr> HTTPS, <a href="https://www.vagrantup.com/">Vagrant</a>
-		<strong>Other:</strong> Arduino, <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>, PhoneGap. Open source contributor. 
+		<strong>Other:</strong> Arduino, <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>, PhoneGap. 
 	</p>
+
+	<p>Open source contributor.</p>
 
 	<h3>Visual</h3>
 
@@ -37,7 +40,7 @@
 
 	<p>I am a volunteer and artist with annual street art festival, Upfest. I hack hardware for fun and art.  
 	Member of local running club. Wild swimmer. Qualified <abbr title="Self-Contained Underwater Breathing Apparatus">SCUBA</abbr> diver. 
-	Bitcoin trader.</p>
+	Motorbike rider. Bitcoin trader.</p>
 	
 	<h3>Other (non-web) jobs</h3>
 	
@@ -58,10 +61,21 @@
 	</p>
 
 
+	<h2>Notable Projects</h2>
+
 
 	<div class="projectWrap">
-		<h2>Notable Projects</h2>
+		<h3>Estate Visualiser <span class="dRange">2017</span></h3>
 
+		<p>Real World Visuals needed some help making a fledgling product fit for demonstration. Picking up where another dev left off I merged 2 tightly-coupled repos that should never have been separate and worked across the full stack to polish and standardise the codebase so that I could then implement critical features ready for client demo. <span class="tag tag-php" data-tag-family="tag-php">PHP</span> (<span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span> framework), SQLite database, <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> and WebGL, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, CSS interface.</p>
+
+		<ul class="outLink">
+			<li>&ndash; (no public release yet)</li>
+		</ul>
+	</div>
+
+
+	<div class="projectWrap">
 		<h3>Open Mic Finder <span class="dRange">2010+</span></h3>
 
 		<p><span class="tag tag-php" data-tag-family="tag-php">PHP</span> site with public login and private CMS. 23,000+ active monthly users. Everything you see on the site was designed and coded by me. 
@@ -77,7 +91,7 @@
 	<div class="projectWrap">
 		<h3>BookFetch <span class="dRange">2017</span></h3>
 
-		<p>A platform for a charitable startup. OAuth Authenticated RESTful API (<span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel 5</span> running on <span class="tag tag-php" data-tag-family="tag-php">PHP 7</span>) allows mutliple internet-enabled stock scanners (Python scripts running on <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>) to log books. A cron task queries a public API to process the scanned ISBN numbers. Special emphasis on absolute ease of use at speed.</p>
+		<p>A platform for a charitable startup. OAuth Authenticated <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> (<span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel 5</span> running on <span class="tag tag-php" data-tag-family="tag-php">PHP 7</span>) allows mutliple internet-enabled stock scanners (Python scripts running on <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>) to log books. A cron task queries a public API to process the scanned ISBN numbers. Special emphasis on absolute ease of use at speed.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://bookfetch.co.uk/">bookfetch.co.uk</a></li>
@@ -89,7 +103,7 @@
 	<div class="projectWrap">
 		<h3>Poetry Pin <span class="dRange">2016</span></h3>
 
-		<p>Mobile web app (<span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>) that uses device GPS sensor to enable users to submit poetry along defined walking routes. Profanity checker filters obviously offensive content. Tests written in PHPUnit. CMS and RESTful API in <span class="tag tag-php" data-tag-family="tag-php">PHP</span>.</p>
+		<p>Mobile web app (<span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>) that uses device GPS sensor to enable users to submit poetry along defined walking routes. Profanity checker filters obviously offensive content. Tests written in PHPUnit. CMS and <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> in <span class="tag tag-php" data-tag-family="tag-php">PHP</span>.</p>
 
 		<ul class="outLink">
 			<li>&ndash; <a href="http://poetrypin.info/">poetrypin.info</a></li>
@@ -132,11 +146,38 @@
 
 		<?=$carmenData?>
 
-		<p>Decision making tool for company car drivers. Backed by a huge database of prices. Later white-labelled for for Mercedes-Benz, 
-		VW Group, KIA, Hyundai and similar. </p>
+		<p>Decision making tool for company car drivers.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://fordquote.comcar.co.uk/">fordquote.comcar.co.uk</a></li>
+			<li>&ndash; (product no longer available online)</li>
+		</ul>
+	</div>
+
+
+
+	<div class="projectWrap">
+		<h3>Kia Quote <span class="dRange">2015</span></h3>
+
+		<?=$carmenData?>
+
+		<p>Finance quote calculator for company car drivers. Backed by a MySQL database of millions of prices.</p>
+
+		<ul class="outLink">
+			<li>&ndash; <a href="http://kia.comcar.co.uk/finance/quote/car/bch/">kia.comcar.co.uk</a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="projectWrap">
+		<h3>Mercedes-Benz <span class="dRange">2015</span></h3>
+
+		<?=$carmenData?>
+
+		<p>Buying decision making tool for company car drivers. Animated interactive interface that updates live via JavaScript and a <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span>.</p>
+
+		<ul class="outLink">
+			<li>&ndash; <a href="http://daimler.comcar.co.uk/">daimler.comcar.co.uk</a></li>
 		</ul>
 	</div>
 
