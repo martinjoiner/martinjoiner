@@ -74,11 +74,8 @@
     <div class="projectWrap">
         <h3>Carbon Reduction Scenario Simulator <span class="dRange">2017</span></h3>
 
-        <p>After my previous rescue effort for Real World Visuals they asked me to pick up an unfinished, partly broken <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span> project, pull it up to standard and get it live-ready. Deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
+        <p>After my previous rescue effort for Real World Visuals they asked me to pick up an unfinished, partly broken <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span> project, pull the back-end code up to standard and get it stable and live-ready. Deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
 
-        <ul class="outLink">
-            <li>&ndash; <a target=_blank href="http://my2050.ireland2050.ie/">my2050.ireland2050.ie</a></li>
-        </ul>
     </div>
 
 
