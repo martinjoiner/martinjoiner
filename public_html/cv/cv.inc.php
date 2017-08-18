@@ -9,15 +9,15 @@
 
 	<p>
 		<strong>Server-side:</strong> MySQL, <span class="tag tag-php" data-tag-family="tag-php">PHP</span>, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>, Symfony, WordPress, <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span>, NodeJS, Bash, Python.
-		<strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, AngularJS, CSS, LESS, SASS, WebGL (Three.js). 
+        <strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, CSS, SASS, Ionic, AngularJS, WebGL (Three.js), <span class="tag tag-websockets" data-tag-family="tag-websockets">WebSockets</span>. 
 		<strong>Testing:</strong> <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>. 
 		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Jekyll, Elixir. 
-		<strong>Deploy tools:</strong> Capistrano, Jenkins. 
+        <strong>Deploy tools:</strong> <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>, Jenkins, Heroku. 
 		<strong>Version control:</strong> GIT, SVN. 
 		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MeetUp, MailChimp, Transport, ISBNdb.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
 		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X), <abbr title="Secure Sockets Layer">SSL</abbr> HTTPS, <a href="https://www.vagrantup.com/">Vagrant</a>
-		<strong>Other:</strong> Arduino, <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>, PhoneGap. 
+        <strong>Other:</strong> Arduino, <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>. 
 	</p>
 
 	<p>Open source contributor.</p>
@@ -64,15 +64,29 @@
 	<h2>Notable Projects</h2>
 
 
-	<div class="projectWrap">
-		<h3>Estate Visualiser <span class="dRange">2017</span></h3>
+    <div class="projectWrap">
+        <h3>Channelisable Company Intranet <span class="dRange">2017</span></h3>
 
-		<p>Real World Visuals needed some help making a fledgling product fit for demonstration. Picking up where another dev left off I merged 2 tightly-coupled repos that should never have been separate and worked across the full stack to polish and standardise the codebase so that I could then implement critical features ready for client demo. <span class="tag tag-php" data-tag-family="tag-php">PHP</span> (<span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span> framework), SQLite database, <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> and WebGL, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, CSS interface.</p>
+        <p>An employee benefits provider tasked me with building a news and social platform capable of being channelised for multiple companies and integrating with their current legacy system. New-build in <span class="tag tag-php" data-tag-family="tag-php">PHP</span> 7, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span> 5.4. Bootstrap 3 for rapid templating. Deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
+    </div>
 
-		<ul class="outLink">
-			<li>&ndash; (no public release yet)</li>
-		</ul>
-	</div>
+
+    <div class="projectWrap">
+        <h3>Carbon Reduction Scenario Simulator <span class="dRange">2017</span></h3>
+
+        <p>After my previous rescue effort for Real World Visuals they asked me to pick up an unfinished, partly broken <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span> project, pull it up to standard and get it live-ready. Deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
+
+        <ul class="outLink">
+            <li>&ndash; <a target=_blank href="http://my2050.ireland2050.ie/">my2050.ireland2050.ie</a></li>
+        </ul>
+    </div>
+
+
+    <div class="projectWrap">
+        <h3>Estate Carbon Emissions Visualiser <span class="dRange">2017</span></h3>
+
+        <p>Real World Visuals needed some help making a fledgling product fit for demonstration. Picking up where another dev left off I merged 2 tightly-coupled repos that should never have been separate and worked across the full stack to polish and standardise the codebase so that I could then implement critical features ready for client demo. <span class="tag tag-php" data-tag-family="tag-php">PHP</span> (<span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span> framework), SQLite database, <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> and WebGL, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, CSS interface. Deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
+    </div>
 
 
 	<div class="projectWrap">
@@ -83,7 +97,7 @@
 		spam, duplication and abuse.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://openmicfinder.com/UK">openmicfinder.com</a></li>
+            <li>&ndash; <a target=_blank href="http://openmicfinder.com/UK">openmicfinder.com</a></li>
 		</ul>
 	</div>
 
@@ -94,7 +108,7 @@
 		<p>A platform for a charitable startup. OAuth Authenticated <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> (<span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel 5</span> running on <span class="tag tag-php" data-tag-family="tag-php">PHP 7</span>) allows mutliple internet-enabled stock scanners (Python scripts running on <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>) to log books. A cron task queries a public API to process the scanned ISBN numbers. Special emphasis on absolute ease of use at speed.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://bookfetch.co.uk/">bookfetch.co.uk</a></li>
+            <li>&ndash; <a target=_blank href="http://bookfetch.co.uk/">bookfetch.co.uk</a></li>
 		</ul>
 	</div>
 
@@ -106,7 +120,7 @@
 		<p>Mobile web app (<span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>) that uses device GPS sensor to enable users to submit poetry along defined walking routes. Profanity checker filters obviously offensive content. Tests written in PHPUnit. CMS and <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> in <span class="tag tag-php" data-tag-family="tag-php">PHP</span>.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://poetrypin.info/">poetrypin.info</a></li>
+            <li>&ndash; <a target=_blank href="http://poetrypin.info/">poetrypin.info</a></li>
 		</ul>
 	</div>
 
@@ -131,7 +145,7 @@
 		<p>I was responsible for <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, CSS and some <span class="tag tag-php" data-tag-family="tag-php">PHP</span> (Symfony framework) on a CSR charity project. It involved complicated data visualisation in the form of charts and interactive maps.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="https://www.horizondata.net/">www.horizondata.net</a></li>
+            <li>&ndash; <a target=_blank href="https://www.horizondata.net/">www.horizondata.net</a></li>
 		</ul>
 	</div>
 
@@ -146,11 +160,8 @@
 
 		<?=$carmenData?>
 
-		<p>Decision making tool for company car drivers.</p>
+        <p>Decision making tool for company car drivers. Interactive <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span> front end hitting API.</p>
 
-		<ul class="outLink">
-			<li>&ndash; (product no longer available online)</li>
-		</ul>
 	</div>
 
 
@@ -163,7 +174,7 @@
 		<p>Finance quote calculator for company car drivers. Backed by a MySQL database of millions of prices.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://kia.comcar.co.uk/finance/quote/car/bch/">kia.comcar.co.uk</a></li>
+            <li>&ndash; <a target=_blank href="http://kia.comcar.co.uk/finance/quote/car/bch/">kia.comcar.co.uk</a></li>
 		</ul>
 	</div>
 
@@ -177,7 +188,7 @@
 		<p>Buying decision making tool for company car drivers. Animated interactive interface that updates live via JavaScript and a <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span>.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://daimler.comcar.co.uk/">daimler.comcar.co.uk</a></li>
+            <li>&ndash; <a target=_blank href="http://daimler.comcar.co.uk/">daimler.comcar.co.uk</a></li>
 		</ul>
 	</div>
 
@@ -191,7 +202,7 @@
 		<p>Rebuild and rebrand post acquisition. Interaction and <abbr title="User Experience">UX</abbr> design. Logo design, UI design, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, CSS, Coldfusion 9.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://www.comparecontracthire.com/">www.comparecontracthire.com</a></li>
+            <li>&ndash; <a target=_blank href="http://www.comparecontracthire.com/">www.comparecontracthire.com</a></li>
 		</ul>
 	</div>
 
@@ -207,7 +218,7 @@
 		displays the figures in the most easily understandable way (often interactive). </p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://comcar.co.uk/">comcar.co.uk</a></li>
+            <li>&ndash; <a target=_blank href="http://comcar.co.uk/">comcar.co.uk</a></li>
 		</ul>
 	</div>
 
@@ -220,7 +231,7 @@
 		<span class="tag tag-js" data-tag-family="tag-js">JavaScript</span> with <span class="tag tag-php" data-tag-family="tag-php">PHP</span> and MySQL back-end. Unique challenge of UX and UI design for children.</p>
 
 		<ul class="outLink">
-			<li>&ndash; <a href="http://storywalks.info">storywalks.info</a></li>
+            <li>&ndash; <a target=_blank href="http://storywalks.info">storywalks.info</a></li>
 		</ul>
 	</div>
 

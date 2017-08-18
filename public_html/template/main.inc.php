@@ -34,9 +34,9 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 	<link href='http://fonts.googleapis.com/css?family=Arbutus+Slab' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 	
-	<!-- injector:css -->
-	<link rel="stylesheet" href="/css/c5f200a7.style.min.css">
-	<!-- endinjector -->
+    <!-- injector:css -->
+    <link rel="stylesheet" href="/css/7b519e45.style.min.css">
+    <!-- endinjector -->
 
 	<?php
 	if( isSet( $templateConfig["css"] ) ){
@@ -78,8 +78,8 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
 
-	<!-- injector:js -->
-	<script src="/js/a4f91af0.martinjoiner.min.js"></script>
+    <!-- injector:js -->
+    <script src="/js/a4f91af0.martinjoiner.min.js"></script>
 	<!-- endinjector -->
 
 	<?php if( isSet( $templateConfig["js"] ) ){

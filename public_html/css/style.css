@@ -173,6 +173,11 @@ img.homeBlink {
 	border-radius: 1em;
 }
 
+.📅 {
+    border: 1px solid #a90d60;
+    background-color: #f3f1d1;
+}
+
 .socWrap {
 	width: 270px; /* ( 4 x 60px ) + ( 3 x 10px padding ) */
 	margin: 0 auto;
@@ -306,6 +311,10 @@ img.homeBlink {
 	width: 100%;
 }
 
+.tag {
+    background-color: #e8e8da;
+}
+
 .tag.tag-highlighted {
 	cursor: context-menu;
 	border-top: 1px solid #9298b5;
@@ -369,14 +378,14 @@ img.homeBlink {
 	width: 540px;
 	height: 360px;
 	background-size: 540px 360px;
-	opacity: 0.5;
+    opacity: 0.7;
 	-webkit-perspective-origin: 0 0;
 	   -moz-perspective-origin: 0 0;
 			perspective-origin: 0 0;
 
-	-webkit-transform: perspective( 1200px ) rotateY( 22deg );
-	   -moz-transform: perspective( 1200px ) rotateY( 22deg );
-			transform: perspective( 1200px ) rotateY( 22deg );
+    -webkit-transform: perspective( 1200px ) rotateY( 12deg );
+       -moz-transform: perspective( 1200px ) rotateY( 12deg );
+            transform: perspective( 1200px ) rotateY( 12deg );
 
 	-webkit-transform-origin: 0 50%;
 	   -moz-transform-origin: 0 50%;
@@ -416,9 +425,9 @@ img.homeBlink {
 	   -moz-transform: perspective( 1200px ) rotateY( 0deg );
 			transform: perspective( 1200px ) rotateY( 0deg );
 
-	-webkit-box-shadow: 0 16px 25px -6px #555;
-	   -moz-box-shadow: 0 16px 25px -6px #555;
-			box-shadow: 0 16px 25px -6px #555;
+    -webkit-box-shadow: 0 16px 25px -6px #666;
+       -moz-box-shadow: 0 16px 25px -6px #666;
+            box-shadow: 0 16px 25px -6px #666;
 }
 
 .slide.active .notes {
