@@ -126,10 +126,9 @@
 	<div class="projectWrap">
 		<h3>Internal planning system for international catering business <span class="dRange">2016</span></h3>
 
-		<p>Previously built with outdated and messy <span class="tag tag-php" data-tag-family="tag-php">PHP</span> the system had begun to run slow and frustrate users. 
-		I performed delicate code surgery to properly normalise the 
-		MySQL database (58+ million rows) and make the reports generate in seconds (previously minutes). I also 
-		modified the UI to encourage users to input high-quality standardised data by giving them tips and feedback.</p>
+        <p>Previously built with outdated and messy <span class="tag tag-php" data-tag-family="tag-php">PHP</span> the system had begun to run frustratingly slow. 
+        I performed code surgery, properly normalised the MySQL database (58+ million rows) and successfully reduced report generation time from minutes to seconds. 
+        I also modified the front-end interface with tips and validation to ensure the users were inputting standardised data.</p>
 	</div>
 
 
