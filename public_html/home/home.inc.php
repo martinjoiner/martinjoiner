@@ -5,7 +5,7 @@
 
     <p>Martin Joiner: <strong>Full-full-stack developer</strong> <em>(the extra &quot;full&quot; is for UX)</em>. Based in Bristol, UK. </p> 
 
-    <div class=📅>Currently with availability from mid-September 2017 onwards.</div>
+    <div class=📅>Currently with availability from mid-October 2017 onwards.</div>
 
     <p id="emailPlaceholder"></p>
 
