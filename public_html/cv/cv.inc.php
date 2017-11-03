@@ -9,7 +9,7 @@
 
 	<p>
 		<strong>Server-side:</strong> MySQL, <span class="tag tag-php" data-tag-family="tag-php">PHP</span>, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>, Symfony, WordPress, <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span>, NodeJS, Bash, Python.
-        <strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, CSS, SASS, Ionic, AngularJS, WebGL (Three.js), <span class="tag tag-websockets" data-tag-family="tag-websockets">WebSockets</span>. 
+        <strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, CSS, SASS, Ionic, AngularJS, <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> (Three.js), <span class="tag tag-websockets" data-tag-family="tag-websockets">WebSockets</span>. 
 		<strong>Testing:</strong> <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>. 
 		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Jekyll, Elixir. 
         <strong>Deploy tools:</strong> <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>, Jenkins, Heroku. 
@@ -65,14 +65,25 @@
 
 
     <div class="projectWrap">
-        <h3>Channelisable Company Intranet <span class="dRange">2017</span></h3>
+        <h3>Bloodhound VR <span class="dRange">Autumn 2017</span></h3>
+
+        <p>3D <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> interface for visualising live data over WebSocket connection to the Bloodhound <abbr title="Super Sonic Car">SSC</abbr>. Delivered via contract at Zubr VR. Large <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span> code base, deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
+
+        <ul class="outLink">
+            <li>&ndash; <a target=_blank href="http://vr.bloodhoundssc.com">vr.bloodhoundssc.com</a></li>
+        </ul>
+    </div>
+
+
+    <div class="projectWrap">
+        <h3>Channelisable Company Intranet <span class="dRange">Summer 2017</span></h3>
 
         <p>An employee benefits provider tasked me with building a news and social platform capable of being channelised for multiple companies and integrating with their current legacy system. New-build in <span class="tag tag-php" data-tag-family="tag-php">PHP</span> 7, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span> 5.4. Bootstrap 3 for rapid templating. Deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
     </div>
 
 
     <div class="projectWrap">
-        <h3>Carbon Reduction Scenario Simulator <span class="dRange">2017</span></h3>
+        <h3>Carbon Reduction Scenario Simulator <span class="dRange"> Spring 2017</span></h3>
 
         <p>After my previous rescue effort for Real World Visuals they asked me to pick up an unfinished, partly broken <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span> project, pull the back-end code up to standard and get it stable and live-ready. Deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
 
