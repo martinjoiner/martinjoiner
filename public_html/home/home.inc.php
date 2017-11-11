@@ -4,8 +4,10 @@
     <img class="homeBlink" src="/images/blink4portfolio.gif">
 
     <p>Martin Joiner: <strong>Full-full-stack developer</strong> <em>(the extra &quot;full&quot; is for UX)</em>. Based in Bristol, UK. </p> 
-
+    
+    <?php /*
     <div class=📅>Currently with availability from mid-November</div>
+    */ ?>
 
     <p id="emailPlaceholder"></p>
 
