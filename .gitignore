@@ -1,7 +1,7 @@
 
 # Ignore dev-only things
 node_modules
-
+.idea
 
 # Ignore logs
 logs/*

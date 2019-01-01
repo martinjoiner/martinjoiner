@@ -10,13 +10,12 @@
 	<p>
 		<strong>Server-side:</strong> MySQL, <span class="tag tag-php" data-tag-family="tag-php">PHP</span>, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>, Symfony, WordPress, <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span>, NodeJS, Bash, Python.
         <strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, CSS, SASS, Ionic, AngularJS, <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> (Three.js), <span class="tag tag-websockets" data-tag-family="tag-websockets">WebSockets</span>. 
-		<strong>Testing:</strong> <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>. 
-		<strong>Build tools:</strong> Grunt, Gulp, Broccoli, Jekyll, Elixir. 
-        <strong>Deploy tools:</strong> <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>, Jenkins, Heroku. 
-		<strong>Version control:</strong> GIT, SVN. 
+		<strong>Testing:</strong> <span class="tag tag-behat" data-tag-family="tag-behat">Behat</span>, <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>.
+		<strong>Build tools:</strong> Webpack, Grunt, Gulp, Broccoli, Jekyll, Elixir.
+        <strong>Deploy tools:</strong> <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>, Jenkins, Heroku.
 		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MeetUp, MailChimp, Transport, ISBNdb.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
-		<strong>Server Admin:</strong> Apache, Linux, CentOS, Unix (Apple OS X), <abbr title="Secure Sockets Layer">SSL</abbr> HTTPS, <a href="https://www.vagrantup.com/">Vagrant</a>
+		<strong>Server Admin:</strong> Apache, Nginx, Linux, CentOS, Unix (Apple OS X), <abbr title="Secure Sockets Layer">SSL</abbr> HTTPS, <a href="https://www.vagrantup.com/">Vagrant</a>
         <strong>Other:</strong> Arduino, <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>. 
 	</p>
 
@@ -62,6 +61,16 @@
 
 
 	<h2>Notable Projects</h2>
+
+
+    <div class="projectWrap">
+        <h3>RCoA Lifelong Learning Platform <span class="dRange">November 2017 - present</span></h3>
+
+        <p class="role">Via my role as Principal Developer at <a href="https://www.nomensa.com/">Nomensa</a> (2017 - present)</p>
+
+        <p>A bespoke build application for Royal College of Anaesthetists to track learners propgress toward qualifying. Many complex multi-user workflows with strict role-based permissions. I led a team of 3 devs (me + 2), full time for over a year to deliver my largest and most complex application to-date. Recruited to rescue the project, I inherited the codebase in a bad state and applied proper Laravel-style techniques to leverage the full power of the framework. Built in <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span> 5.6 and <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, test-coverage with <span class="tag tag-behat" data-tag-family="tag-behat">Behat</span> and pipeline/deployment managed through GitLab CI.</p>
+
+    </div>
 
 
     <div class="projectWrap">

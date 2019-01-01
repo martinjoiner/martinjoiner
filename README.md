@@ -14,4 +14,4 @@ This repo is kind of 2 websites in one, but they are codependent so they belong 
 Technology
 ----------
 
-Written in PHP (no framework), HTML5, CSS and vanilla Javascript. Assets built-down using Grunt to concat, minify and version.
+Written in PHP (no framework), HTML5, CSS and vanilla JavaScript. Assets built-down using Grunt to concat, minify and version.
