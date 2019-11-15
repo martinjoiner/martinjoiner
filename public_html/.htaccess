@@ -3,22 +3,27 @@
 
 	RewriteEngine on
 	
-	# To redirect all users to access the site WITHOUT the 'www.' prefix,
-	RewriteCond %{HTTP_HOST} ^www\.martinjoiner\.co.uk$ [NC]
-	RewriteRule ^(.*)$ http://martinjoiner.co.uk/$1 [L,R=301]
+    # Force users to access the site WITHOUT the 'www.' prefix,
+    RewriteCond %{HTTP_HOST} ^www\.martinjoiner\.co.uk$ [NC]
+    RewriteRule ^(.*)$ https://martinjoiner.co.uk/$1 [L,R=301]
 
-	# Redirect CV to cv
-  RewriteCond %{REQUEST_URI} CV
-  RewriteRule CV /cv [L,R=301]
+    # Redirect non-secure visits to https
+    RewriteCond %{HTTP_HOST} ^martinjoiner\.co\.uk$
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://martinjoiner.co.uk/ [L,R=301]
+
+    # Redirect CV to cv
+    RewriteCond %{REQUEST_URI} CV
+    RewriteRule CV /cv [L,R=301]
 
 </IfModule>
 
 <ifModule mod_expires.c>
 
-   <filesMatch "\.min\.css$">
-      ExpiresActive On
-      ExpiresDefault "access plus 30 days"
-  </filesMatch>
+    <filesMatch "\.min\.css$">
+        ExpiresActive On
+        ExpiresDefault "access plus 30 days"
+   </filesMatch>
 
 </ifModule>
 

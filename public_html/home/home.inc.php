@@ -17,9 +17,9 @@
 
         <a class="socialLink gitLink" target="_blank" href="https://github.com/martinjoiner" title="Martin Joiner on Github">GitHub</a>
 
-        <a class="socialLink soLink" target="_blank" href="http://stackoverflow.com/users/2054138/martin-joiner" title="Martin Joiner on Stack Overflow">Stack Overflow</a>
+        <a class="socialLink soLink" target="_blank" href="https://stackoverflow.com/users/2054138/martin-joiner" title="Martin Joiner on Stack Overflow">Stack Overflow</a>
 
-        <a class="socialLink liLink" target="_blank" href="https://uk.linkedin.com/in/martinjoiner" title="Martin Joiner on LinkedIn">LinkedIn</a>
+        <a class="socialLink liLink" target="_blank" href="https://www.linkedin.com/in/martinjoiner/" title="Martin Joiner on LinkedIn">LinkedIn</a>
 
     </div>
 

@@ -11,11 +11,11 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 	<meta charset="UTF-8">
 
 	<meta property="og:site_name" content="Martin Joiner" /> 
-	<meta property="og:url" content="http://martinjoiner.co.uk/" /> 
+	<meta property="og:url" content="https://martinjoiner.co.uk/" />
 	<meta property="og:title" content="Martin Joiner" /> 
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Martin Joiner is a highly creative full-stack web developer with a specialism in front-end. Based in Bristol, UK."/>
-	<meta property="og:image" content="http://martinjoiner.co.uk/images/MartinSketch.jpg" />
+	<meta property="og:image" content="https://martinjoiner.co.uk/images/MartinSketch.jpg" />
 	<meta property="fb:admins" content="511938722" /> 
 
 
@@ -31,8 +31,8 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 	}
 	?></title>
 
-	<link href='http://fonts.googleapis.com/css?family=Arbutus+Slab' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Arbutus+Slab' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 	
     <!-- injector:css -->
     <link rel="stylesheet" href="/css/7b519e45.style.min.css">
