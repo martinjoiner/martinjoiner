@@ -6,9 +6,10 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 }
 
 ?><!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="en">
 
 	<meta property="og:site_name" content="Martin Joiner" /> 
 	<meta property="og:url" content="https://martinjoiner.co.uk/" />
@@ -16,8 +17,7 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Martin Joiner is a highly creative full-stack web developer with a specialism in front-end. Based in Bristol, UK."/>
 	<meta property="og:image" content="https://martinjoiner.co.uk/images/MartinSketch.jpg" />
-	<meta property="fb:admins" content="511938722" /> 
-
+	<meta property="fb:admins" content="511938722" />
 
 	<title><?php
 	if( isSet( $templateConfig["title"] ) ){
