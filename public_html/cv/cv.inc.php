@@ -9,7 +9,7 @@
 
 	<p>
 		<strong>Server-side:</strong> MySQL, <span class="tag tag-php" data-tag-family="tag-php">PHP</span>, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>, Symfony, WordPress, <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span>, NodeJS, Bash, Python.
-        <strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, CSS, SASS, <span class="tag tag-service-worker" data-tag-family="tag-service-worker">, Ionic, AngularJS, <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> (Three.js), <span class="tag tag-websockets" data-tag-family="tag-websockets">WebSockets</span>.
+        <strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, CSS, SASS, <span class="tag tag-service-worker" data-tag-family="tag-service-worker">Service Worker API</span>, Ionic, AngularJS, <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> (Three.js), <span class="tag tag-websockets" data-tag-family="tag-websockets">WebSockets</span>.
 		<strong>Testing:</strong> <span class="tag tag-behat" data-tag-family="tag-behat">Behat</span>, <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>.
 		<strong>Build tools:</strong> Webpack, Grunt, Gulp, Broccoli, Jekyll, Elixir.
         <strong>Deploy tools:</strong> <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>, Jenkins, Heroku.
