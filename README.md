@@ -4,7 +4,7 @@
 
 ![martinjoiner.co.uk home page screenshot](/docs/screenshot.jpg)
 
-Live at: http://martinjoiner.co.uk 
+Live at: https://martinjoiner.co.uk 
 
 This repo is kind of 2 websites in one, but they are codependent so they belong together: 
 
