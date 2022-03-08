@@ -37,7 +37,7 @@
 
 	<h3>Other interests</h3>
 
-	<p>Climber. Motorbike rider. I volunteer at Upfest. I hack hardware for fun and art.
+	<p>Climbing. Snowboarding. Painting and drawing.
 	Member of local running club. Wild swimmer. I dabble in Bitcoin.</p>
 	
 	<h3>Other (non-web) jobs</h3>
@@ -63,9 +63,12 @@
 
 
     <div class="projectWrap">
-        <h3>Worktribe <span class="dRange">2020 - present</span></h3>
+        <h3>Worktribe <span class="dRange">2020 - Feb 2022</span></h3>
 
-        <p>A long-established company who have found great success with products now relied on by many UK Universities. I was recruited to help the team bring their mature legacy <span class="tag tag-php" data-tag-family="tag-php">PHP</span> codebase up to date.</p>
+        <p>Worktribe are a product company well-established within higher education, making administration software relied on by many UK Universities.
+            I was recruited to help maintain their mature legacy <span class="tag tag-php" data-tag-family="tag-php">PHP</span>
+            codebase whilst also leading the new build of a <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span> API
+            which will serve multiple native apps and ultimately become the replacement.</p>
 
     </div>
 
@@ -85,9 +88,6 @@
 
         <p>3D <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> interface for visualising live data over WebSocket connection to the Bloodhound <abbr title="Super Sonic Car">SSC</abbr>. Delivered via contract at Zubr VR. Large <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span> code base, deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
 
-        <ul class="outLink">
-            <li>&ndash; <a target=_blank href="http://vr.bloodhoundssc.com">vr.bloodhoundssc.com</a></li>
-        </ul>
     </div>
 
 
@@ -130,10 +130,7 @@
 		<h3>BookFetch <span class="dRange">2017</span></h3>
 
 		<p>A platform for a charitable startup. OAuth Authenticated <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> (<span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel 5</span> running on <span class="tag tag-php" data-tag-family="tag-php">PHP 7</span>) allows mutliple internet-enabled stock scanners (Python scripts running on <span class="tag tag-raspberrypi" data-tag-family="tag-raspberrypi">Raspberry Pi</span>) to log books. A cron task queries a public API to process the scanned ISBN numbers. Special emphasis on absolute ease of use at speed.</p>
-
-		<ul class="outLink">
-            <li>&ndash; <a target=_blank href="http://bookfetch.co.uk/">bookfetch.co.uk</a></li>
-		</ul>
+        
 	</div>
 
 
