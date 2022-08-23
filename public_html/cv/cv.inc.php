@@ -9,10 +9,17 @@
 
 	<p>
 		<strong>Server-side:</strong> MySQL, <span class="tag tag-php" data-tag-family="tag-php">PHP</span>, <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>, Symfony, WordPress, <span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span>, NodeJS, Bash, Python.
-        <strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, jQuery, CSS, SASS, <span class="tag tag-service-worker" data-tag-family="tag-service-worker">Service Worker API</span>, Ionic, AngularJS, <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> (Three.js), <span class="tag tag-websockets" data-tag-family="tag-websockets">WebSockets</span>.
-		<strong>Testing:</strong> <span class="tag tag-behat" data-tag-family="tag-behat">Behat</span>, <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>), <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>.
+        <strong>Client-side:</strong> HTML, SVG, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, <span class="tag tag-react" data-tag-family="tag-react">React Native</span>, jQuery,
+        CSS, SASS, <span class="tag tag-service-worker" data-tag-family="tag-service-worker">Service Worker API</span>,
+        Ionic, AngularJS, <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> (Three.js), <span class="tag tag-websockets" data-tag-family="tag-websockets">WebSockets</span>.
+		<strong>Testing:</strong>
+            <span class="tag tag-chipperci" data-tag-family="tag-chipperci">ChipperCI</span>,
+            <span class="tag tag-behat" data-tag-family="tag-behat">Behat</span>,
+            <a href="https://phpunit.de/">PHPUnit</a> (+ <a href="https://phpunit.de/manual/current/en/database.html">dbUnit</a>),
+            <a href="http://www.phpspec.net/en/stable/">PHPSpec</a>.
 		<strong>Build tools:</strong> Webpack, Grunt, Gulp, Broccoli, Jekyll, Elixir.
-        <strong>Deploy tools:</strong> <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>, Jenkins, Heroku.
+        <strong>Deploy tools:</strong> <span class="tag tag-aws" data-tag-family="tag-aws">AWS</span>, <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>, Jenkins, Heroku.
+        <strong>CI:</strong> Github, GitLab CI, Chipper CI
 		<strong><abbr title="Application Program Interface">API</abbr>s:</strong> Google Maps, MapBox, HighCharts, Twitter, MeetUp, MailChimp, Transport, ISBNdb.
 		<strong>Protocols:</strong> Open Graph, Rich snippets. 
 		<strong>Server Admin:</strong> Apache, Nginx, Linux, CentOS, Unix (Apple OS X), <abbr title="Secure Sockets Layer">SSL</abbr> HTTPS, <a href="https://www.vagrantup.com/">Vagrant</a>
@@ -53,9 +60,10 @@
 	<h2>About Me</h2>
 
 	<p class="introParagraph">
-		I am a creative full-stack web developer with a passion for UX. 
-		I take a customer-first approach and work across all the technological components to implement features that add value. 
-		I thrive in a culture of innovation and high standards and love a good discussion about how best to tackle something. 
+		I am a creative full-stack web developer with a passion for UX.
+        I enjoy roles with an element of mentoring.
+		Not afraid to work on improving all the components of software including the documentation and processes that create it.
+		I thrive in a culture of innovation and modern standards and love a good team discussion to decide our best approach.
 	</p>
 
 
@@ -65,10 +73,17 @@
     <div class="projectWrap">
         <h3>Worktribe <span class="dRange">2020 - Feb 2022</span></h3>
 
-        <p>Worktribe are a product company well-established within higher education, making administration software relied on by many UK Universities.
-            I was recruited to help maintain their mature legacy <span class="tag tag-php" data-tag-family="tag-php">PHP</span>
-            codebase whilst also leading the new build of a <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span> API
-            which will serve multiple native apps and ultimately become the replacement.</p>
+        <p>University administration software.
+            Maintaining a mature legacy <span class="tag tag-php" data-tag-family="tag-php">PHP</span>
+            codebase. Led a new build <span class="tag tag-php" data-tag-family="tag-php">PHP</span>8 <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span> API
+            that integrated with <span class="tag tag-socketio" data-tag-family="tag-socketio">Socket.io</span>
+            (<span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>) and <span class="tag tag-firebase" data-tag-family="tag-firebase">Firebase</span>
+            and automated tests run by <span class="tag tag-chipperci" data-tag-family="tag-chipperci">ChipperCI</span> as
+            well as scripts to live simulate heavy traffic for load-testing real-time chat.
+            Contributed to <span class="tag tag-react" data-tag-family="tag-react">React Native</span> app.
+            Administered deployments to <span class="tag tag-aws" data-tag-family="tag-aws">AWS</span>.
+            Dabbled in <span class="tag tag-docker" data-tag-family="tag-docker">Docker</span>.
+        </p>
 
     </div>
 
@@ -78,7 +93,15 @@
 
         <p class="role">Via my role as Principal Developer at <a href="https://www.nomensa.com/">Nomensa</a></p>
 
-        <p>A bespoke application for Royal College of Anaesthetists to track learners progress toward qualifying. Many complex multi-user workflows with strict role-based permissions. I led a team of 3 devs (me + 2), full time for over 2 years to deliver and then iteratively improve my largest and most complex application to-date. Recruited to rescue the project, I inherited the codebase in a bad state and applied proper Laravel-style techniques to leverage the full power of the framework. Built in <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span> and <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, test-coverage with <span class="tag tag-behat" data-tag-family="tag-behat">Behat</span> and pipeline/deployment managed through GitLab CI. Notable features included partial functionality offline via <span class="tag tag-service-worker" data-tag-family="tag-service-worker">Service Worker API</span>.</p>
+        <p>A bespoke application for Royal College of Anaesthetists to track learners progress toward qualifying.
+            Many complex multi-user workflows with strict role-based permissions. I led a team of 3 devs (me + 2),
+            full time for over 2 years to deliver and then iteratively improve my largest and most complex application to-date.
+            Recruited to rescue the project, I inherited the codebase in a bad state and applied proper Laravel-style
+            techniques to leverage the full power of the framework. Built in <span class="tag tag-laravel" data-tag-family="tag-laravel">Laravel</span>
+            and <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, test-coverage
+            with <span class="tag tag-behat" data-tag-family="tag-behat">Behat</span> and pipeline/deployment managed
+            through GitLab CI. Notable features included partial functionality offline
+            via <span class="tag tag-service-worker" data-tag-family="tag-service-worker">Service Worker API</span>.</p>
 
     </div>
 
@@ -88,6 +111,24 @@
 
         <p>3D <span class="tag tag-webGL" data-tag-family="tag-webGL">WebGL</span> interface for visualising live data over WebSocket connection to the Bloodhound <abbr title="Super Sonic Car">SSC</abbr>. Delivered via contract at Zubr VR. Large <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span> code base, deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
 
+    </div>
+
+
+    <div class="projectWrap">
+        <h3>Open Mic Finder <span class="dRange">2010 - Present day</span></h3>
+
+        <p>I built Open Mic Finder to solve a personal problem of a lack of reliable online information.
+            Over a decade later and it's still running with a solid
+            user base (a steady flow of of 13,000 users per month) and the honour of outliving 2 competitor sites.
+            It has never generated any significant revenue but I keep it alive because it's a good
+            showcase of my abilities to oversee the stability of an entire project that is both live and visited by thousands.
+            The most recent updates were an upgrade to <span class="tag tag-php" data-tag-family="tag-php">PHP</span>8
+            and heavy automation of the process by which neglected data is removed.
+            Daily administration duties are now reduced to a quick review of the user-generated content for QA purposes.</p>
+
+        <ul class="outLink">
+            <li>&ndash; <a target=_blank href="https://openmicfinder.com/UK">openmicfinder.com</a></li>
+        </ul>
     </div>
 
 
@@ -111,19 +152,6 @@
 
         <p>Real World Visuals needed some help making a fledgling product fit for demonstration. Picking up where another dev left off I merged 2 tightly-coupled repos that should never have been separate and worked across the full stack to polish and standardise the codebase so that I could then implement critical features ready for client demo. <span class="tag tag-php" data-tag-family="tag-php">PHP</span> (<span class="tag tag-codeigniter" data-tag-family="tag-codeigniter">CodeIgniter</span> framework), SQLite database, <span class="tag tag-restfulapi" data-tag-family="tag-restfulapi">RESTful API</span> and WebGL, <span class="tag tag-js" data-tag-family="tag-js">JavaScript</span>, CSS interface. Deployed with <span class="tag tag-capistrano" data-tag-family="tag-capistrano">Capistrano</span>.</p>
     </div>
-
-
-	<div class="projectWrap">
-		<h3>Open Mic Finder <span class="dRange">2010+</span></h3>
-
-		<p><span class="tag tag-php" data-tag-family="tag-php">PHP</span> site with public login and private CMS. 23,000+ active monthly users. Everything you see on the site was designed and coded by me. 
-		It hosts user-generated content so I have had to come up with solutions to tackle problems with data quality, data rot, 
-		spam, duplication and abuse.</p>
-
-		<ul class="outLink">
-            <li>&ndash; <a target=_blank href="https://openmicfinder.com/UK">openmicfinder.com</a></li>
-		</ul>
-	</div>
 
 
 	<div class="projectWrap">
