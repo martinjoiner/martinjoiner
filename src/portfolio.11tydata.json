@@ -1,0 +1,69 @@
+{
+  "slides": [
+    {
+      "header": "BookFetch branding",
+      "blurb": "Logo design, colour scheme and typography style guide to fit in with the book industry.",
+      "image": "/portfolio/images/BookFetch.jpg"
+    },
+    {
+      "header": "Compare Contract Hire branding",
+      "blurb": "Logo design, visual branding, responsive site design.",
+      "url": "www.comparecontracthire.com",
+      "image": "/portfolio/images/CCH-Screenshot.png"
+    },
+    {
+      "header": "Open Mic Finder branding",
+      "blurb": "Logo design, colour scheme and typography, responsive site design.",
+      "url": "openmicfinder.com",
+      "image": "/portfolio/images/OpenMicFinder.jpg"
+    },
+    {
+      "header": "The Shout app",
+      "blurb": "Open source single page app. Built with OO JavaScript, Gulp.",
+      "repo": "shout-web-app",
+      "image": "/portfolio/images/ShoutApp.jpg"
+    },
+    {
+      "header": "Storywalks branding",
+      "blurb": "Logo design, typography, project showcase mini-site and responsive web-app",
+      "url": "storywalks.info",
+      "image": "/portfolio/images/Storywalks.jpg"
+    },
+    {
+      "header": "Circa Maps Project",
+      "blurb": "Generative design project. Algorithmically grows maps of fictional cities. Visualises coordinate geometry and generates SVG markup.",
+      "url": "circa.butterscotchworld.co.uk",
+      "repo": "circa-maps",
+      "image": "/portfolio/images/Circa-Maps.jpg"
+    },
+    {
+      "header": "Mackay Design Studio",
+      "blurb": "Stylish minimalist design brief from client with design background. Responsive site with CSS animations.",
+      "image": "/portfolio/images/Mackay-Screenshot.png"
+    },
+    {
+      "header": "SSS branding",
+      "blurb": "Logo design with multiple variations and brand style guide",
+      "image": "/portfolio/images/SSS-Style-Guide.jpg"
+    },
+    {
+      "header": "Word Matrix",
+      "blurb": "An in-browser mock-up of an idea for a physical interactive art installation. Built with OO JavaScript, PHP, Twitter API, Composer, Microajax.",
+      "url": "matrix.butterscotchworld.co.uk",
+      "repo": "word-matrix",
+      "image": "/portfolio/images/Word-Matrix.jpg"
+    },
+    {
+      "header": "Image-to-web-page Converter",
+      "blurb": "PHP application that takes an image file and produces styled markup (a web page) that appears as an abstracted form of the image PHP, Composer, JavaScript, jQuery, Gulp.",
+      "url": "pixels.butterscotchworld.co.uk",
+      "repo": "image-to-web-page",
+      "image": "/portfolio/images/image-to-web-page.jpg"
+    },
+    {
+      "header": "Bristol Open",
+      "blurb": "Budget logo and tournament entry system for a formal fencing competition.",
+      "image": "/portfolio/images/BristolOpen.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+---
+title: Visual Portfolio - Martin Joiner
+permalink: portfolio/index.html
+layout: main.njk
+---
+
+<h1>Visual Portfolio</h1>
+
+<p class="portfolioIntro">Projects with notable visual appeal. <br>Everything on this page has leveraged my
+	visual design skills as well as my programming abilities.</p>
+
+{% for slide in slides %}
+	<div class="slide active" id="slide{{ loop.index0 }}">
+		<div class="notes">
+			<h2>{{ slide.header }}</h2>
+			<p>{{ slide.blurb }}</p>
+			<p><a target="_blank" href="https://{{ slide.url }}">{{ slide.url }}</a></p>
+			{% if slide.repo %}
+				<p>[ <a target="_blank" href="https://github.com/martinjoiner/{{ slide.repo }}">Github repo</a> ]</p>
+			{% endif %}
+		</div>
+        <div class=innerStage>
+            <img class=slideImage src="{{ slide.image }}" alt="Screenshot of {{ slide.header }}">
+		</div>
+	</div>
+{% endfor %}
+
+<div class="bottomSpace">&nbsp;</div>
+

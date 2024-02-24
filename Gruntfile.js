@@ -84,12 +84,12 @@ module.exports = function(grunt) {
       options: { "ignorePath": ['public_html'] },
       css: {
         files: {
-          'public_html/template/main.inc.php': ['public_html/css/*style.min.css'],
+          'src/_includes/main.njk': ['public_html/css/*style.min.css'],
         }
       },
       js: {
         files: {
-          'public_html/template/main.inc.php': ['public_html/js/*martinjoiner.min.js'],
+          'src/_includes/main.njk': ['public_html/js/*martinjoiner.min.js'],
         }
       },
       wpcss: {

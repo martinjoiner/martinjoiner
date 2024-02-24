@@ -12,10 +12,6 @@
     RewriteCond %{HTTPS} off
     RewriteRule ^(.*)$ https://martinjoiner.co.uk/ [L,R=301]
 
-    # Redirect CV to cv
-    RewriteCond %{REQUEST_URI} CV
-    RewriteRule CV /cv [L,R=301]
-
 </IfModule>
 
 <ifModule mod_expires.c>

@@ -1,11 +1,4 @@
-<?php
-
-// Set default config
-if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
-	$templateConfig["appendSiteNameToTitle"] = true;
-}
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -19,37 +12,20 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 	<meta property="og:image" content="https://martinjoiner.co.uk/images/MartinSketch.jpg" />
 	<meta property="fb:admins" content="511938722" />
 
-	<title><?php
-	if( isSet( $templateConfig["title"] ) ){
-		print $templateConfig["title"];
-	}
-	if( $templateConfig["appendSiteNameToTitle"] ){
-		if( isSet( $templateConfig["title"] ) ){
-			print ' - ';
-		}
-		print 'Martin Joiner';
-	}
-	?></title>
+	<title>{{ title }}</title>
 
 	<link href='https://fonts.googleapis.com/css?family=Arbutus+Slab' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 	
     <!-- injector:css -->
-    <link rel="stylesheet" href="/css/7b519e45.style.min.css">
+    <link rel="stylesheet" href="/css/a821d61c.style.min.css">
     <!-- endinjector -->
 
-	<?php
-	if( isSet( $templateConfig["css"] ) ){
-		print $templateConfig["css"];
-	}
-	?>
-
-	<?php
-	if( isSet( $templateConfig["head"] ) ){
-		include( $_SERVER['DOCUMENT_ROOT'] . $templateConfig["head"] );;
-	}
-	?>
-
+	{% if cssInclude %}
+		<style>
+			{% include cssInclude %}
+		</style>
+	{% endif %}
 </head>
 <body>
 
@@ -67,12 +43,10 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
 
         	<div id="wrapbody">
 
-				<?php if( isSet( $templateConfig["content"] ) ){
-					include( $_SERVER["DOCUMENT_ROOT"] . $templateConfig["content"] );
-				} ?>
+				{{ content | safe }}
 
-	        </div> <!-- Close wrapbody --> 
-	    </div> <!-- Close masterwrapper -->
+	        </div>
+	    </div>
 
 	</div> <!-- Close container -->
 
@@ -81,20 +55,6 @@ if( !isSet( $templateConfig["appendSiteNameToTitle"] ) ){
     <!-- injector:js -->
     <script src="/js/a4f91af0.martinjoiner.min.js"></script>
 	<!-- endinjector -->
-
-	<?php if( isSet( $templateConfig["js"] ) ){
-		print $templateConfig["js"];
-	} ?>
-
-	<script type="text/javascript">
-	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-	try {
-	var pageTracker = _gat._getTracker("UA-15400129-1");
-	pageTracker._trackPageview();
-	} catch(err) {}</script>
 
 </body>
 </html>
