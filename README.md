@@ -14,4 +14,16 @@ This repo is kind of 2 websites in one, but they are codependent so they belong 
 Technology
 ----------
 
-Written in PHP (no framework), HTML5, CSS and vanilla JavaScript. Assets built-down using Grunt to concat, minify and version.
+Static files compiled using [Eleventy](https://www.11ty.dev/), HTML5, CSS and vanilla JavaScript. Assets built-down using Grunt to concat, minify and version.
+
+To serve locally...
+
+```
+npx @11ty/eleventy --serve
+```
+
+To check all the links work...
+
+```
+npm test
+```

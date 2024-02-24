@@ -5,7 +5,7 @@ body {
 	font-family: 'Bitter', serif;
 }
 
-body * {
+body p {
 	line-height: 1.9em;
 }
 
@@ -230,27 +230,31 @@ img.homeBlink {
 /* ------------------------ CV Layout ----------------------- */
 /* ---------------------------------------------------------- */
 
-.cvSecondaryCol {
-	width: 200px;
+.columns {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.cvSidebar {
+	flex: 0 0 220px;
 	padding-left: 5mm;
-	float: right;
 	text-align: right;
 	color: #555;
 }
 
-.cvSecondaryCol h2 {
+.cvSidebar h2 {
 	border-bottom: 1px solid #888;
 	line-height: 1.8em;
 	margin-top: 0;
 }
 
-.cvSecondaryCol p {
-	margin-bottom: 3em;
+.cvSidebar p {
+	margin: 0 0 1em;
 }
 
 .cvPrimaryCol {
 	text-align: left;
-	padding-right: 250px;
+	flex-grow: 1;
 }
 
 .cvPrimaryCol .introParagraph {
@@ -269,28 +273,28 @@ img.homeBlink {
 	margin-top: 0;
 }
 
-.cvPrimaryCol h3 {
-	margin-bottom: 0.5em;
+.cvPrimaryCol header {
+	display: flex;
+	justify-content: space-between;
 }
 
-.cvPrimaryCol h3 span.dRange {
-	float: right;
-	width: 34mm;
-	text-align: right;
-	font-size: 0.9em;
+.cvPrimaryCol header h3 {
+	margin-top: 0;
+}
+
+.cvPrimaryCol .project header .dRange {
 	color: #666;
-	font-weight: normal;
 }
 
 .cvPrimaryCol ul {
 	padding: 0 0 0 5mm;
 }
 
-.cvPrimaryCol .projectWrap {
-	margin-bottom: 2em;
+.cvPrimaryCol .project {
+	margin-bottom: 3em;
 }
 
-.cvPrimaryCol .projectWrap p {
+.cvPrimaryCol .project p {
 	line-height: 1.7em;
 }
 
@@ -310,15 +314,33 @@ img.homeBlink {
 	width: 100%;
 }
 
+/* ------- Technology Tags -------- */
+
 .tag {
-    background-color: #e8e8da;
+	display: inline-block;
+	cursor: context-menu;
+    background-color: #f5f5f5;
+	padding: 0 0.2em;
 }
 
-.tag.tag-highlighted {
-	cursor: context-menu;
-	border-top: 1px solid #9298b5;
-	border-bottom: 1px solid #9298b5;
-	background-color: #cbdaf1;
+.tag.tag-highlight-yellow {
+	background-color: #fafaac;
+}
+
+.tag.tag-highlight-green {
+	background-color: #d2ffcb;
+}
+
+.tag.tag-highlight-blue {
+	background-color: #bafefe;
+}
+
+.tag.tag-highlight-pink {
+	background-color: #ffc2f1;
+}
+
+.tag.tag-highlight-orange {
+	background-color: #ffd3a1;
 }
 
 /* ------- Contact Details -------- */
