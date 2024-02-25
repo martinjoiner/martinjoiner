@@ -53,7 +53,7 @@ module.exports = function(grunt) {
       mj: {
         files: {
           'public_html/css/style.min.css' : 
-          [ 'public_html/css/style.css' ]
+          [ 'src/css/style.css' ]
         }
       },
       wp: {
@@ -105,7 +105,7 @@ module.exports = function(grunt) {
         tasks: ['js']
       },
       css: {
-        files: ['public_html/css/style.css'],
+        files: ['src/css/style.css'],
         tasks: ['css']
       },
       wpcss: {
