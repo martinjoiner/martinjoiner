@@ -6,50 +6,68 @@ layout: main.njk
 
 <h1>Curriculum Vitae</h1>
 
-<div class="columns">
-<div class="cvSidebar">
+<div class="cv">
+
+	<div class="aboutMe">
+
+		<p class="contactDetails">Martin Joiner &nbsp;&nbsp; Bristol, UK &nbsp;&nbsp; <span id="emailPlaceholder"></span>
+			&nbsp;&nbsp;
+			<a href="https://github.com/martinjoiner" target="_blank">github.com/martinjoiner</a>
+		</p>
+
+		<h2>About Me</h2>
+
+		<p class="introParagraph">
+			I am a creative full-stack developer with a passion for good UX.
+			I enjoy roles with an element of mentoring.
+			Not afraid to work on improving all the components of software including the documentation and processes that create it.
+			I thrive in a culture of innovation and modern standards and love a good team discussion to decide our best approach.
+			Open source contributor.
+		</p>
+
+	</div>
+
+<div class="techSkills">
 
 	<h2>Professional Skills</h2>
 
-	<h3>Familiar Technologies</h3>
-
 	<p><em>Tap a tech to highlight</em></p>
 
-	<h4>Languages</h4>
+	<h3>Languages</h3>
 
 	<p>{% tag "PHP" %}, {% tag "MySQL" %}, {% tag "JavaScript" %}</p>
 
-	<h4>Frameworks</h4>
+	<h3>Frameworks</h3>
 
 	<p>{% tag "Laravel" %}, {% tag "Symfony" %}, {% tag tech="CodeIgniter" %}, {% tag tech="WordPress" %}</p>
 
 	<p>{% tag tech="Behat" %}, {% tag "PHPUnit" %}, {% tag "Psalm" %}, {% tag "CodeSniffer" %}</p>
 
-	<h4>Frontend</h4>
+	<h3>Frontend</h3>
 
 	<p>{% tag "React Native" %}, Ionic, AngularJS, {% tag "WebGL" %} (Three.js).
 
-	<h4>Infrastructure</h4>
+	<h3>Infrastructure</h3>
 
 	<p>{% tag tech="REST APIs", tag="restapi" %}, {% tag tech="CI Pipelines", tag="ci" %}, {% tag tech="WebSocket" %},
 		{% tag "AWS" %}, {% tag "Firebase" %}, {% tag "Capistrano" %}, Jenkins, Heroku.</p>
 
-	<h4>Static asset tools</h4>
+	<h3>Static asset tools</h3>
 
 	<p>11ty, Gulp, Webpack, Grunt, Broccoli, Jekyll, Elixir.</p>
 
-	<h4>Dev environments</h4>
+	<h3>Dev</h3>
 
 	<p>{% tag "Vagrant" %}, {% tag "Docker" %}</p>
 
-	<h4>Hobbyist</h4>
+	<h3>Hobbyist</h3>
 
 	<p>{% tag "Raspberry Pi" %}, Arduino.</p>
 
 	<h3>Visual</h3>
 
-	<p>Adobe CC (Photoshop + Illustrator), logo and style design, drawing + illustration, wireframing, 2D and 3D animation,
-		3D modelling, digital photography + retouching, video production.</p>
+	<p>Adobe CC (Photoshop + Illustrator), logo and style design, drawing + illustration, wireframing,
+		2D and 3D animation, 3D modelling, digital photography + retouching, video production.</p>
 
 	<h3>Interactive</h3>
 
@@ -59,31 +77,8 @@ layout: main.njk
 
 	<p>Public speaking, leadership, mentoring, project management, statistical visualisation, prototyping, sketching.</p>
 
-	<h2>Other</h2>
-
-	<h3>Other interests</h3>
-
-	<p>Rock Climbing. Snowboarding. Painting and drawing.</p>
-	
-	<h3>Other (non-web) jobs</h3>
-	
-	<p>Commissioning artist / Artist in residence at University of Plymouth / Open mic host / Juggling teacher / Nightclub VJ / Gardener / Pancake chef</p>
-
 </div>
 <div class="cvPrimaryCol">
-
-	<div class="contactDetails">Martin Joiner &nbsp;&nbsp; Bristol, UK &nbsp;&nbsp; <span id="emailPlaceholder"></span></div>
-
-	<h2>About Me</h2>
-
-	<p class="introParagraph">
-		I am a creative full-stack developer with a passion for good UX.
-        I enjoy roles with an element of mentoring.
-		Not afraid to work on improving all the components of software including the documentation and processes that create it.
-		I thrive in a culture of innovation and modern standards and love a good team discussion to decide our best approach.
-		Open source contributor.
-	</p>
-
 
 	<h2>Notable Projects</h2>
     
@@ -357,10 +352,18 @@ layout: main.njk
 	</section>
 
 </div>
-</div>
-<div class="cvFullWidthCol">
+<div class="historicRoles">
 
-	<h2>Historic roles</h2>
+	<h2>Other interests</h2>
+
+	<p>Rock Climbing. Snowboarding. Painting and drawing.</p>
+
+	<h3>Other (non-web) jobs</h3>
+
+	<p>Commissioning artist / Artist in residence at University of Plymouth / Open mic host / Juggling teacher / Nightclub VJ / Gardener / Pancake chef</p>
+
+
+	<h4>Historic roles</h4>
 
 	<h3>Web designer at Wessex Malthouse Design <span class="dRange">2008 &ndash; 2009</span></h3>
 
@@ -379,6 +382,7 @@ layout: main.njk
 	</ul>
 
 </div>
+</div><!-- /.cv -->
 
 <script>
 

@@ -20,7 +20,7 @@ img {
 a,
 #emailPlaceholder {
 	color: #10354f;
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 a:hover,
@@ -52,9 +52,9 @@ a.invisible{
 
 /* -------------------------------- */
 
-.masterwrapper, 
-#headerbar, 
-#wrapbody, 
+.masterwrapper,
+#headerbar,
+#wrapbody,
 .footerbar {
 	width: 100%;
 	max-width: 900px;
@@ -173,8 +173,8 @@ img.homeBlink {
 }
 
 .📅 {
-    border: 1px solid #a90d60;
-    background-color: #f3f1d1;
+	border: 1px solid #a90d60;
+	background-color: #f3f1d1;
 }
 
 .socWrap {
@@ -194,8 +194,8 @@ img.homeBlink {
 	margin-top: 3px;
 	margin-right: 10px;
 	-webkit-transition: margin .2s;
-	   -moz-transition: margin .2s;
-			transition: margin .2s;
+	-moz-transition: margin .2s;
+	transition: margin .2s;
 }
 
 .socialLink:last-child {
@@ -230,38 +230,55 @@ img.homeBlink {
 /* ------------------------ CV Layout ----------------------- */
 /* ---------------------------------------------------------- */
 
-.columns {
-	display: flex;
-	flex-direction: row-reverse;
+.cv {
+	display: grid;
+	grid-template-columns: auto 1em 220px;
 }
 
-.cvSidebar {
-	flex: 0 0 220px;
-	padding-left: 5mm;
+.cv .aboutMe {
+	grid-column: 1 / span 3;
+	grid-row: 1;
+	line-height: 1.7;
+	text-align: left;
+}
+
+.aboutMe .introParagraph {
+	font-size: 1.1em;
+	margin-bottom: 2em;
+}
+
+.aboutMe .contactDetails {
+	font-size: 1.1em;
+}
+
+.techSkills {
+	grid-column: 3;
+	grid-row: 2;
 	text-align: right;
 	color: #555;
 }
 
-.cvSidebar h2 {
+.techSkills h2 {
 	border-bottom: 1px solid #888;
 	line-height: 1.8em;
 	margin-top: 0;
 }
 
-.cvSidebar p {
+.techSkills p {
 	margin: 0 0 1em;
 }
 
 .cvPrimaryCol {
+	grid-column: 1 / span 1;
+	grid-row: 2;
 	text-align: left;
-	flex-grow: 1;
-}
-
-.cvPrimaryCol .introParagraph {
-	font-size: 1.1em;
 }
 
 .cvPrimaryCol p {
+	margin-top: 0;
+}
+
+.cvPrimaryCol h2:first-child {
 	margin-top: 0;
 }
 
@@ -309,9 +326,8 @@ img.homeBlink {
 	margin-top: 0;
 }
 
-.cvFullWidthCol {
-	float: left;
-	width: 100%;
+.historicRoles {
+	grid-column: 1 / span 3;
 }
 
 /* ------- Technology Tags -------- */
@@ -319,7 +335,7 @@ img.homeBlink {
 .tag {
 	display: inline-block;
 	cursor: context-menu;
-    background-color: #f5f5f5;
+	background-color: #f5f5f5;
 	padding: 0 0.2em;
 }
 
@@ -343,18 +359,13 @@ img.homeBlink {
 	background-color: #ffd3a1;
 }
 
-/* ------- Contact Details -------- */
-
-.cvPrimaryCol .contactDetails {
-	font-size: 1.2em;
-}
-
 
 
 /* ------ Formal Education ------ */
 
-.cvFullWidthCol ul.formaleducation {
+.historicRoles ul.formaleducation {
 	list-style: none;
+	padding: 0;
 }
 
 
@@ -379,7 +390,7 @@ img.homeBlink {
 
 .portfolioIntro{
 	margin-top: -2em;
-    margin-bottom: 4em;
+	margin-bottom: 4em;
 }
 
 .slide {
@@ -397,33 +408,33 @@ img.homeBlink {
 	width: 540px;
 	height: 360px;
 	background-size: 540px 360px;
-    opacity: 0.7;
+	opacity: 0.7;
 	-webkit-perspective-origin: 0 0;
-	   -moz-perspective-origin: 0 0;
-			perspective-origin: 0 0;
+	-moz-perspective-origin: 0 0;
+	perspective-origin: 0 0;
 
-    -webkit-transform: perspective( 1200px ) rotateY( 12deg );
-       -moz-transform: perspective( 1200px ) rotateY( 12deg );
-            transform: perspective( 1200px ) rotateY( 12deg );
+	-webkit-transform: perspective( 1200px ) rotateY( 12deg );
+	-moz-transform: perspective( 1200px ) rotateY( 12deg );
+	transform: perspective( 1200px ) rotateY( 12deg );
 
 	-webkit-transform-origin: 0 50%;
-	   -moz-transform-origin: 0 50%;
-	   		transform-origin: 0 50%;
+	-moz-transform-origin: 0 50%;
+	transform-origin: 0 50%;
 
 	-webkit-transition: -webkit-transform .8s cubic-bezier(.11,-0.7,.35,1.01), opacity .6s;
-	   -moz-transition: -moz-transform .8s cubic-bezier(.11,-0.7,.35,1.01), opacity .6s;
-	   		transition: transform .8s cubic-bezier(.11,-0.7,.35,1.01), opacity .6s;
+	-moz-transition: -moz-transform .8s cubic-bezier(.11,-0.7,.35,1.01), opacity .6s;
+	transition: transform .8s cubic-bezier(.11,-0.7,.35,1.01), opacity .6s;
 
 	-webkit-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.1), inset -1px -1px 0 rgba(0,0,0,0.3);
-	   -moz-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.1), inset -1px -1px 0 rgba(0,0,0,0.3);
-			box-shadow: inset 1px 1px 0 rgba(255,255,255,0.1), inset -1px -1px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.1), inset -1px -1px 0 rgba(0,0,0,0.3);
+	box-shadow: inset 1px 1px 0 rgba(255,255,255,0.1), inset -1px -1px 0 rgba(0,0,0,0.3);
 }
 
 .slide .notes {
 	position: absolute;
 	-webkit-transition: margin-left .4s cubic-bezier(.11,-0.7,.35,1.01), opacity .3s;
-	   -moz-transition: margin-left .4s cubic-bezier(.11,-0.7,.35,1.01), opacity .3s;
-			transition: margin-left .4s cubic-bezier(.11,-0.7,.35,1.01), opacity .3s;
+	-moz-transition: margin-left .4s cubic-bezier(.11,-0.7,.35,1.01), opacity .3s;
+	transition: margin-left .4s cubic-bezier(.11,-0.7,.35,1.01), opacity .3s;
 	opacity: 0;
 	margin-left: 150px;
 	margin-top: 20px;
@@ -433,20 +444,20 @@ img.homeBlink {
 	line-height: 2em;
 
 	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-			box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 
 }
 
 .slide.active .slideImage {
 	opacity: 1;
 	-webkit-transform: perspective( 1200px ) rotateY( 0deg );
-	   -moz-transform: perspective( 1200px ) rotateY( 0deg );
-			transform: perspective( 1200px ) rotateY( 0deg );
+	-moz-transform: perspective( 1200px ) rotateY( 0deg );
+	transform: perspective( 1200px ) rotateY( 0deg );
 
-    -webkit-box-shadow: 0 16px 25px -6px #666;
-       -moz-box-shadow: 0 16px 25px -6px #666;
-            box-shadow: 0 16px 25px -6px #666;
+	-webkit-box-shadow: 0 16px 25px -6px #666;
+	-moz-box-shadow: 0 16px 25px -6px #666;
+	box-shadow: 0 16px 25px -6px #666;
 }
 
 .slide.active .notes {
@@ -475,7 +486,7 @@ img.homeBlink {
 	}
 
 	h1 {
-		font-size: 4em;
+		font-size: 3.4em;
 		padding: 0;
 	}
 
@@ -487,13 +498,16 @@ img.homeBlink {
 		margin-bottom: 1em;
 	}
 
-	.cvSidebar {
-		flex: 0 0 100px;
+	.cv {
+		grid-template-columns: auto 1em 110px;
 	}
 
-	.cvSidebar h2,
-	.cvSidebar h3 {
+	.techSkills h2 {
 		display: none;
+	}
+
+	.techSkills h3 {
+		font-size: 1em;
 	}
 
 	/* ------------ Portfolio -------------- */
