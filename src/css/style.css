@@ -178,7 +178,7 @@ img.homeBlink {
 }
 
 .socWrap {
-	width: 270px; /* ( 4 x 60px ) + ( 3 x 10px padding ) */
+	width: 200px; /* ( 3 x 60px ) + ( 2 x 10px padding ) */
 	margin: 0 auto;
 }
 
@@ -374,8 +374,6 @@ img.homeBlink {
 }
 
 
-
-
 /* -------------------------------------------- Portfolio --------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------- */
 
@@ -460,4 +458,76 @@ img.homeBlink {
 	width: 100%;
 	float: left;
 	height: 360px;
+}
+
+
+@media screen and (max-width: 460px) {
+
+	#header {
+		position: static;
+		display: flex;
+		justify-content: space-between;
+		font-size: 1.3em;
+	}
+
+	.headerSpace {
+		display: none;
+	}
+
+	h1 {
+		font-size: 4em;
+		padding: 0;
+	}
+
+	/* ------------ CV -------------- */
+	/* ------------------------------ */
+
+	.project header {
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	.cvSidebar {
+		flex: 0 0 100px;
+	}
+
+	.cvSidebar h2,
+	.cvSidebar h3 {
+		display: none;
+	}
+
+	/* ------------ Portfolio -------------- */
+	/* ------------------------------------- */
+
+	.slide {
+		display: block;
+		width: auto;
+		height: auto;
+	}
+
+	.slide .notes,
+	.slide .innerStage {
+		display: block;
+		position: static;
+	}
+
+	.slide .innerStage {
+		width: auto;
+		height: auto;
+	}
+
+	.slide .notes,
+	.slide.active .notes {
+		opacity: 1;
+		margin-left: 0;
+		width: auto;
+		height: auto;
+	}
+
+	.slide .slideImage,
+	.slide.active .slideImage {
+		width: 100%;
+		height: auto;
+	}
+
 }
